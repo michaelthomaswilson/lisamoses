@@ -1,0 +1,51 @@
+///////////////////////////////////////////////
+
+// Colors
+
+///////////////////////////////////////////////
+
+$gray: #808081;
+
+///////////////////////////////////////////////
+
+// Web Fonts
+
+///////////////////////////////////////////////
+
+@mixin serif-normal {
+	font-family: 'Libre Baskerville', serif;
+	font-weight: 500;
+}
+
+@mixin serif-bold {
+	font-family: 'Libre Baskerville', serif;
+	font-weight: 700;
+}
+
+@mixin sans-light {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+}
+
+@mixin sans-normal {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 500;
+}
+
+@mixin sans-bold {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+}
+
+
+///////////////////////////////////////////////
+
+// HTML Elements
+
+///////////////////////////////////////////////
+
+body {
+	@include sans-normal;
+	font-size: 16px;
+	color: $gray;
+}
