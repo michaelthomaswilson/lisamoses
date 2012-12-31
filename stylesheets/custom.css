@@ -22,29 +22,30 @@ h1 span {
 
 /* line 67, ../sass/custom.scss */
 hr {
-  height: 1px;
+  height: 2px;
   width: 100%;
-  border-bottom: 1px dotted #cc9f33;
   margin-top: 40px;
+  background: url("../images/dotted.gif") repeat-x;
+  border: none;
 }
 
-/* line 80, ../sass/custom.scss */
+/* line 81, ../sass/custom.scss */
 .capsule {
   margin-bottom: 35px;
 }
-/* line 84, ../sass/custom.scss */
+/* line 85, ../sass/custom.scss */
 .capsule a {
   height: 100%;
   width: 100%;
 }
-/* line 89, ../sass/custom.scss */
+/* line 90, ../sass/custom.scss */
 .capsule img {
   display: block;
   height: 135px;
   width: 330px;
   background: #ccc;
 }
-/* line 96, ../sass/custom.scss */
+/* line 97, ../sass/custom.scss */
 .capsule label {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 500;
@@ -53,7 +54,7 @@ hr {
   letter-spacing: .05em;
 }
 
-/* line 105, ../sass/custom.scss */
+/* line 106, ../sass/custom.scss */
 .intro p {
   font-family: "Libre Baskerville", serif;
   font-weight: 700;
@@ -63,72 +64,72 @@ hr {
   margin-top: 35px;
 }
 
-/* line 114, ../sass/custom.scss */
+/* line 115, ../sass/custom.scss */
 .nav-bar, .nav-bar.categories {
   margin-top: 35px;
   background: none !important;
 }
-/* line 119, ../sass/custom.scss */
+/* line 120, ../sass/custom.scss */
 .nav-bar li, .nav-bar li:last-child, .nav-bar li:first-child, .nav-bar.categories li, .nav-bar.categories li:last-child, .nav-bar.categories li:first-child {
   border: 0;
   box-shadow: none !important;
 }
-/* line 123, ../sass/custom.scss */
+/* line 124, ../sass/custom.scss */
 .nav-bar li:hover, .nav-bar li:last-child:hover, .nav-bar li:first-child:hover, .nav-bar.categories li:hover, .nav-bar.categories li:last-child:hover, .nav-bar.categories li:first-child:hover {
   background: none;
 }
-/* line 127, ../sass/custom.scss */
+/* line 128, ../sass/custom.scss */
 .nav-bar li.active, .nav-bar li:last-child.active, .nav-bar li:first-child.active, .nav-bar.categories li.active, .nav-bar.categories li:last-child.active, .nav-bar.categories li:first-child.active {
   background: none;
 }
-/* line 130, ../sass/custom.scss */
+/* line 131, ../sass/custom.scss */
 .nav-bar li.active a, .nav-bar li:last-child.active a, .nav-bar li:first-child.active a, .nav-bar.categories li.active a, .nav-bar.categories li:last-child.active a, .nav-bar.categories li:first-child.active a {
   color: #808081 !important;
 }
-/* line 133, ../sass/custom.scss */
+/* line 134, ../sass/custom.scss */
 .nav-bar li.active a:hover, .nav-bar li:last-child.active a:hover, .nav-bar li:first-child.active a:hover, .nav-bar.categories li.active a:hover, .nav-bar.categories li:last-child.active a:hover, .nav-bar.categories li:first-child.active a:hover {
   background: none !important;
 }
-/* line 139, ../sass/custom.scss */
+/* line 140, ../sass/custom.scss */
 .nav-bar li a, .nav-bar li a:first-child, .nav-bar li a:last-child, .nav-bar li:last-child a, .nav-bar li:last-child a:first-child, .nav-bar li:last-child a:last-child, .nav-bar li:first-child a, .nav-bar li:first-child a:first-child, .nav-bar li:first-child a:last-child, .nav-bar.categories li a, .nav-bar.categories li a:first-child, .nav-bar.categories li a:last-child, .nav-bar.categories li:last-child a, .nav-bar.categories li:last-child a:first-child, .nav-bar.categories li:last-child a:last-child, .nav-bar.categories li:first-child a, .nav-bar.categories li:first-child a:first-child, .nav-bar.categories li:first-child a:last-child {
   color: white;
   border: 0;
   font-size: 18px;
 }
-/* line 144, ../sass/custom.scss */
+/* line 145, ../sass/custom.scss */
 .nav-bar li a:hover, .nav-bar li a:first-child:hover, .nav-bar li a:last-child:hover, .nav-bar li:last-child a:hover, .nav-bar li:last-child a:first-child:hover, .nav-bar li:last-child a:last-child:hover, .nav-bar li:first-child a:hover, .nav-bar li:first-child a:first-child:hover, .nav-bar li:first-child a:last-child:hover, .nav-bar.categories li a:hover, .nav-bar.categories li a:first-child:hover, .nav-bar.categories li a:last-child:hover, .nav-bar.categories li:last-child a:hover, .nav-bar.categories li:last-child a:first-child:hover, .nav-bar.categories li:last-child a:last-child:hover, .nav-bar.categories li:first-child a:hover, .nav-bar.categories li:first-child a:first-child:hover, .nav-bar.categories li:first-child a:last-child:hover {
   background-color: none !important;
 }
 
-/* line 151, ../sass/custom.scss */
+/* line 152, ../sass/custom.scss */
 .nav-bar.categories {
   margin-bottom: 60px;
 }
-/* line 157, ../sass/custom.scss */
+/* line 158, ../sass/custom.scss */
 .nav-bar.categories li.active, .nav-bar.categories li:last-child.active, .nav-bar.categories li:first-child.active {
   background: none;
 }
-/* line 160, ../sass/custom.scss */
+/* line 161, ../sass/custom.scss */
 .nav-bar.categories li.active a, .nav-bar.categories li:last-child.active a, .nav-bar.categories li:first-child.active a {
   color: #808081 !important;
 }
-/* line 163, ../sass/custom.scss */
+/* line 164, ../sass/custom.scss */
 .nav-bar.categories li.active a:hover, .nav-bar.categories li:last-child.active a:hover, .nav-bar.categories li:first-child.active a:hover {
   background: none !important;
 }
-/* line 169, ../sass/custom.scss */
+/* line 170, ../sass/custom.scss */
 .nav-bar.categories li a, .nav-bar.categories li a:first-child, .nav-bar.categories li a:last-child, .nav-bar.categories li:last-child a, .nav-bar.categories li:last-child a:first-child, .nav-bar.categories li:last-child a:last-child, .nav-bar.categories li:first-child a, .nav-bar.categories li:first-child a:first-child, .nav-bar.categories li:first-child a:last-child {
   color: #808081;
   border: 0;
   font-size: 18px;
   padding-right: 5px;
 }
-/* line 175, ../sass/custom.scss */
+/* line 176, ../sass/custom.scss */
 .nav-bar.categories li a:hover, .nav-bar.categories li a:first-child:hover, .nav-bar.categories li a:last-child:hover, .nav-bar.categories li:last-child a:hover, .nav-bar.categories li:last-child a:first-child:hover, .nav-bar.categories li:last-child a:last-child:hover, .nav-bar.categories li:first-child a:hover, .nav-bar.categories li:first-child a:first-child:hover, .nav-bar.categories li:first-child a:last-child:hover {
   background-color: none !important;
 }
 
-/* line 188, ../sass/custom.scss */
+/* line 189, ../sass/custom.scss */
 #header {
   position: absolute;
   top: 0;

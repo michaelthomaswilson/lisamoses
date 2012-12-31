@@ -65,10 +65,11 @@ h1 {
 }
 
 hr {
-	height: 1px;
+	height: 2px;
 	width: 100%;
-	border-bottom: 1px dotted $yellow;
 	margin-top: 40px;
+	background: url('../images/dotted.gif') repeat-x;
+	border: none;
 }
 
 ///////////////////////////////////////////////
