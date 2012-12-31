@@ -185,25 +185,26 @@ p {
   position: relative;
   min-height: 100%;
   margin-bottom: -75px;
+  padding-bottom: 10px;
 }
 
-/* line 240, ../sass/custom.scss */
+/* line 241, ../sass/custom.scss */
 #footer {
   position: relative;
   width: 100%;
   height: 75px;
   background: #cc9f33;
 }
-/* line 250, ../sass/custom.scss */
+/* line 251, ../sass/custom.scss */
 #footer .row .columns.dotted {
   background: url("../images/dotted-vertical.png") top left repeat-y;
   height: 75px;
 }
-/* line 254, ../sass/custom.scss */
+/* line 255, ../sass/custom.scss */
 #footer .row .columns.dotted.center {
   text-align: center;
 }
-/* line 259, ../sass/custom.scss */
+/* line 260, ../sass/custom.scss */
 #footer .row a {
   margin: 0;
   margin-top: 20px;
@@ -216,7 +217,7 @@ p {
   line-height: 75px;
 }
 
-/* line 272, ../sass/custom.scss */
+/* line 273, ../sass/custom.scss */
 #header {
   position: absolute;
   top: 0;
@@ -225,4 +226,30 @@ p {
   width: 100%;
   height: 85px;
   background: #cc9f33;
+}
+
+/* line 283, ../sass/custom.scss */
+#image-nav {
+  position: absolute;
+  right: -10px;
+  bottom: -35px;
+  width: auto;
+  height: 20px;
+  text-align: right;
+  line-height: 20px;
+}
+/* line 292, ../sass/custom.scss */
+#image-nav a {
+  display: inline-block;
+  padding: 0 25px;
+  font-size: 30px;
+  color: #808081;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+}
+/* line 300, ../sass/custom.scss */
+#image-nav span {
+  position: relative;
+  display: inline-block;
+  top: -5px;
 }
