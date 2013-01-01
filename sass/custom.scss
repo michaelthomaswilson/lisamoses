@@ -96,7 +96,7 @@ p {
 
 ///////////////////////////////////////////////
 
-.about {
+.about, .contact {
 
 	a {
 		color: $yellow;
@@ -121,6 +121,12 @@ p {
 		line-height: 2em;
 	}
 
+}
+
+.contact {
+	h2, h3 {
+		color: $gray;
+	}
 }
 
 .capsule {
