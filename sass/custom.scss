@@ -61,7 +61,7 @@ h1 {
 	font-size: 18px;
 	letter-spacing: .3em;
 	color: $gray;
-	margin-top: 20px;
+	margin-top: 40px;
 
 	span {
 		color: $yellow;
@@ -153,6 +153,9 @@ p {
 }
 
 .intro {
+
+	margin-bottom: 35px;
+
 	p {
 		@include serif-bold;
 		font-size: 14px;
@@ -163,7 +166,7 @@ p {
 
 .nav-bar, .nav-bar.categories {
 
-	margin-top: 35px;
+	//margin-top: 35px;
 	background: none !important;
 
 	li, li:last-child, li:first-child {
