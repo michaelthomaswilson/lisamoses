@@ -96,6 +96,33 @@ p {
 
 ///////////////////////////////////////////////
 
+.about {
+
+	a {
+		color: $yellow;
+	}
+
+	h2, h3 {
+		color: $yellow;
+		text-transform: uppercase;
+		@include serif-normal;
+		letter-spacing: .05em;
+		font-size: 20px;
+	}
+
+	h3 {
+		text-transform: none;
+		font-size: 16px;
+		margin-top: 0;
+	}
+
+	p {
+		@include serif-normal;
+		line-height: 2em;
+	}
+
+}
+
 .capsule {
 
 	margin-bottom: 35px;

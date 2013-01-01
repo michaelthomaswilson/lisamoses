@@ -52,23 +52,49 @@ p {
   letter-spacing: .05em;
 }
 
-/* line 99, ../sass/custom.scss */
+/* line 101, ../sass/custom.scss */
+.about a {
+  color: #cc9f33;
+}
+/* line 105, ../sass/custom.scss */
+.about h2, .about h3 {
+  color: #cc9f33;
+  text-transform: uppercase;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 500;
+  letter-spacing: .05em;
+  font-size: 20px;
+}
+/* line 113, ../sass/custom.scss */
+.about h3 {
+  text-transform: none;
+  font-size: 16px;
+  margin-top: 0;
+}
+/* line 119, ../sass/custom.scss */
+.about p {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 500;
+  line-height: 2em;
+}
+
+/* line 126, ../sass/custom.scss */
 .capsule {
   margin-bottom: 35px;
 }
-/* line 103, ../sass/custom.scss */
+/* line 130, ../sass/custom.scss */
 .capsule a {
   height: 100%;
   width: 100%;
 }
-/* line 108, ../sass/custom.scss */
+/* line 135, ../sass/custom.scss */
 .capsule img {
   display: block;
   height: 135px;
   width: 330px;
   background: #ccc;
 }
-/* line 115, ../sass/custom.scss */
+/* line 142, ../sass/custom.scss */
 .capsule label {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 500;
@@ -77,13 +103,13 @@ p {
   letter-spacing: .05em;
 }
 
-/* line 123, ../sass/custom.scss */
+/* line 150, ../sass/custom.scss */
 .clearfooter {
   height: 75px;
   clear: both;
 }
 
-/* line 129, ../sass/custom.scss */
+/* line 156, ../sass/custom.scss */
 .intro p {
   font-family: "Libre Baskerville", serif;
   font-weight: 700;
@@ -92,72 +118,72 @@ p {
   letter-spacing: .05em;
 }
 
-/* line 137, ../sass/custom.scss */
+/* line 164, ../sass/custom.scss */
 .nav-bar, .nav-bar.categories {
   margin-top: 35px;
   background: none !important;
 }
-/* line 142, ../sass/custom.scss */
+/* line 169, ../sass/custom.scss */
 .nav-bar li, .nav-bar li:last-child, .nav-bar li:first-child, .nav-bar.categories li, .nav-bar.categories li:last-child, .nav-bar.categories li:first-child {
   border: 0;
   box-shadow: none !important;
 }
-/* line 146, ../sass/custom.scss */
+/* line 173, ../sass/custom.scss */
 .nav-bar li:hover, .nav-bar li:last-child:hover, .nav-bar li:first-child:hover, .nav-bar.categories li:hover, .nav-bar.categories li:last-child:hover, .nav-bar.categories li:first-child:hover {
   background: none;
 }
-/* line 150, ../sass/custom.scss */
+/* line 177, ../sass/custom.scss */
 .nav-bar li.active, .nav-bar li:last-child.active, .nav-bar li:first-child.active, .nav-bar.categories li.active, .nav-bar.categories li:last-child.active, .nav-bar.categories li:first-child.active {
   background: none;
 }
-/* line 153, ../sass/custom.scss */
+/* line 180, ../sass/custom.scss */
 .nav-bar li.active a, .nav-bar li:last-child.active a, .nav-bar li:first-child.active a, .nav-bar.categories li.active a, .nav-bar.categories li:last-child.active a, .nav-bar.categories li:first-child.active a {
   color: #808081 !important;
 }
-/* line 156, ../sass/custom.scss */
+/* line 183, ../sass/custom.scss */
 .nav-bar li.active a:hover, .nav-bar li:last-child.active a:hover, .nav-bar li:first-child.active a:hover, .nav-bar.categories li.active a:hover, .nav-bar.categories li:last-child.active a:hover, .nav-bar.categories li:first-child.active a:hover {
   background: none !important;
 }
-/* line 162, ../sass/custom.scss */
+/* line 189, ../sass/custom.scss */
 .nav-bar li a, .nav-bar li a:first-child, .nav-bar li a:last-child, .nav-bar li:last-child a, .nav-bar li:last-child a:first-child, .nav-bar li:last-child a:last-child, .nav-bar li:first-child a, .nav-bar li:first-child a:first-child, .nav-bar li:first-child a:last-child, .nav-bar.categories li a, .nav-bar.categories li a:first-child, .nav-bar.categories li a:last-child, .nav-bar.categories li:last-child a, .nav-bar.categories li:last-child a:first-child, .nav-bar.categories li:last-child a:last-child, .nav-bar.categories li:first-child a, .nav-bar.categories li:first-child a:first-child, .nav-bar.categories li:first-child a:last-child {
   color: white;
   border: 0;
   font-size: 18px;
 }
-/* line 167, ../sass/custom.scss */
+/* line 194, ../sass/custom.scss */
 .nav-bar li a:hover, .nav-bar li a:first-child:hover, .nav-bar li a:last-child:hover, .nav-bar li:last-child a:hover, .nav-bar li:last-child a:first-child:hover, .nav-bar li:last-child a:last-child:hover, .nav-bar li:first-child a:hover, .nav-bar li:first-child a:first-child:hover, .nav-bar li:first-child a:last-child:hover, .nav-bar.categories li a:hover, .nav-bar.categories li a:first-child:hover, .nav-bar.categories li a:last-child:hover, .nav-bar.categories li:last-child a:hover, .nav-bar.categories li:last-child a:first-child:hover, .nav-bar.categories li:last-child a:last-child:hover, .nav-bar.categories li:first-child a:hover, .nav-bar.categories li:first-child a:first-child:hover, .nav-bar.categories li:first-child a:last-child:hover {
   background-color: none !important;
 }
 
-/* line 174, ../sass/custom.scss */
+/* line 201, ../sass/custom.scss */
 .nav-bar.categories {
   margin-bottom: 60px;
 }
-/* line 180, ../sass/custom.scss */
+/* line 207, ../sass/custom.scss */
 .nav-bar.categories li.active, .nav-bar.categories li:last-child.active, .nav-bar.categories li:first-child.active {
   background: none;
 }
-/* line 183, ../sass/custom.scss */
+/* line 210, ../sass/custom.scss */
 .nav-bar.categories li.active a, .nav-bar.categories li:last-child.active a, .nav-bar.categories li:first-child.active a {
   color: #808081 !important;
 }
-/* line 186, ../sass/custom.scss */
+/* line 213, ../sass/custom.scss */
 .nav-bar.categories li.active a:hover, .nav-bar.categories li:last-child.active a:hover, .nav-bar.categories li:first-child.active a:hover {
   background: none !important;
 }
-/* line 192, ../sass/custom.scss */
+/* line 219, ../sass/custom.scss */
 .nav-bar.categories li a, .nav-bar.categories li a:first-child, .nav-bar.categories li a:last-child, .nav-bar.categories li:last-child a, .nav-bar.categories li:last-child a:first-child, .nav-bar.categories li:last-child a:last-child, .nav-bar.categories li:first-child a, .nav-bar.categories li:first-child a:first-child, .nav-bar.categories li:first-child a:last-child {
   color: #808081;
   border: 0;
   font-size: 18px;
   padding-right: 5px;
 }
-/* line 198, ../sass/custom.scss */
+/* line 225, ../sass/custom.scss */
 .nav-bar.categories li a:hover, .nav-bar.categories li a:first-child:hover, .nav-bar.categories li a:last-child:hover, .nav-bar.categories li:last-child a:hover, .nav-bar.categories li:last-child a:first-child:hover, .nav-bar.categories li:last-child a:last-child:hover, .nav-bar.categories li:first-child a:hover, .nav-bar.categories li:first-child a:first-child:hover, .nav-bar.categories li:first-child a:last-child:hover {
   background-color: none !important;
 }
 
-/* line 205, ../sass/custom.scss */
+/* line 232, ../sass/custom.scss */
 .project {
   display: block;
   width: 100%;
@@ -166,7 +192,7 @@ p {
   background: #808081;
 }
 
-/* line 213, ../sass/custom.scss */
+/* line 240, ../sass/custom.scss */
 .project-nav {
   margin: 0;
   margin-top: 20px;
@@ -174,13 +200,13 @@ p {
   font-weight: 500;
   text-transform: uppercase;
 }
-/* line 221, ../sass/custom.scss */
+/* line 248, ../sass/custom.scss */
 .project-nav li a, .project-nav li a:first-child, .project-nav li a:last-child, .project-nav li:last-child a, .project-nav li:last-child a:first-child, .project-nav li:last-child a:last-child, .project-nav li:first-child a, .project-nav li:first-child a:first-child, .project-nav li:first-child a:last-child {
   font-size: 16px !important;
   letter-spacing: .07em;
 }
 
-/* line 234, ../sass/custom.scss */
+/* line 261, ../sass/custom.scss */
 #container {
   position: relative;
   min-height: 100%;
@@ -188,23 +214,23 @@ p {
   padding-bottom: 10px;
 }
 
-/* line 241, ../sass/custom.scss */
+/* line 268, ../sass/custom.scss */
 #footer {
   position: relative;
   width: 100%;
   height: 75px;
   background: #cc9f33;
 }
-/* line 251, ../sass/custom.scss */
+/* line 278, ../sass/custom.scss */
 #footer .row .columns.dotted {
   background: url("../images/dotted-vertical.png") top left repeat-y;
   height: 75px;
 }
-/* line 255, ../sass/custom.scss */
+/* line 282, ../sass/custom.scss */
 #footer .row .columns.dotted.center {
   text-align: center;
 }
-/* line 260, ../sass/custom.scss */
+/* line 287, ../sass/custom.scss */
 #footer .row a {
   margin: 0;
   margin-top: 20px;
@@ -217,7 +243,7 @@ p {
   line-height: 75px;
 }
 
-/* line 273, ../sass/custom.scss */
+/* line 300, ../sass/custom.scss */
 #header {
   position: absolute;
   top: 0;
@@ -228,7 +254,7 @@ p {
   background: #cc9f33;
 }
 
-/* line 283, ../sass/custom.scss */
+/* line 310, ../sass/custom.scss */
 #image-nav {
   position: absolute;
   right: -10px;
@@ -238,7 +264,7 @@ p {
   text-align: right;
   line-height: 20px;
 }
-/* line 292, ../sass/custom.scss */
+/* line 319, ../sass/custom.scss */
 #image-nav a {
   display: inline-block;
   padding: 0 25px;
@@ -247,7 +273,7 @@ p {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 300;
 }
-/* line 300, ../sass/custom.scss */
+/* line 327, ../sass/custom.scss */
 #image-nav span {
   position: relative;
   display: inline-block;
