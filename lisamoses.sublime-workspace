@@ -1,0 +1,431 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"background",
+				"background-position"
+			],
+			[
+				"bl",
+				"inline-block"
+			],
+			[
+				"column",
+				"column_one"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"project",
+				"project_type"
+			],
+			[
+				"top",
+				"topSpace"
+			],
+			[
+				"fancy",
+				"fancybox-close"
+			],
+			[
+				"fancyb",
+				"fancybox-wrap"
+			],
+			[
+				"ste",
+				"stetson"
+			],
+			[
+				"caps",
+				"capsuleHeight"
+			],
+			[
+				"sc",
+				"scroller"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"cap",
+				"capsuleWidth"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"h",
+				"hidden"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"ca",
+				"capsuleWidth"
+			],
+			[
+				"capsule",
+				"capsuleWidth"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "ee_index.html",
+			"settings":
+			{
+				"buffer_size": 1450,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 360.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/mwilson/Documents/Repo/lisamoses/project.html",
+		"/Users/mwilson/Documents/Repo/pure-site-refinery/app/views/layouts/project.html.erb",
+		"/Users/mwilson/Documents/Repo/pure-site-refinery/app/controllers/pages_controller.rb",
+		"/Users/mwilson/Documents/Repo/pure-site-refinery/app/views/pages/index.html.erb",
+		"/Users/mwilson/Documents/Repo/pure-site-refinery/app/assets/stylesheets/pages.css.scss",
+		"/Users/mwilson/Documents/Repo/pure-site-refinery/app/assets/javascripts/pages.js",
+		"/Users/mwilson/Documents/Repo/pure-site-refinery/app/views/layouts/application.html.erb",
+		"/Users/mwilson/Documents/Repo/pure-site-refinery/config/routes.rb",
+		"/Users/mwilson/Documents/Repo/pure-site-refinery/vendor/extensions/projects/app/views/refinery/projects/projects/show.html.erb",
+		"/Users/mwilson/Documents/Repo/pure-site-refinery/app/views/pages/aboutus.html.erb",
+		"/Users/mwilson/Documents/Repo/pure-site-refinery/vendor/extensions/articles/app/views/refinery/articles/articles/show.html.erb",
+		"/Users/mwilson/Documents/Repo/pure-site-refinery/vendor/extensions/projects/app/controllers/refinery/projects/projects_controller.rb",
+		"/Users/mwilson/Documents/Repo/pure-site-refinery/vendor/extensions/projects/app/models/refinery/projects/project.rb",
+		"/Users/mwilson/Documents/Repo/pure-site-refinery/app/views/pages/blog.html.erb",
+		"/Users/mwilson/Documents/Repo/pure-site-refinery/vendor/extensions/articles/app/controllers/refinery/articles/articles_controller.rb",
+		"/Users/mwilson/Documents/Repo/pure-site-refinery/config/environments/development.rb",
+		"/Users/mwilson/Documents/Repo/pure-site-refinery/config/environments/production.rb",
+		"/Users/mwilson/Documents/Repo/pure-site-refinery/Gemfile",
+		"/Users/mwilson/Documents/Repo/pure-site-refinery/app/assets/stylesheets/theme.css.scss",
+		"/Users/mwilson/Documents/Repo/pure-site-refinery/app/assets/javascripts/application.js",
+		"/Users/mwilson/Documents/Repo/pure-site-refinery/app/assets/javascripts/refinery/admin.js.erb",
+		"/Users/mwilson/Documents/Repo/pure-site-refinery/app/assets/javascripts/admin.js",
+		"/Users/mwilson/Documents/Repo/pure-site-refinery/public/stylesheets/themes.css",
+		"/Users/mwilson/Documents/Repo/pure-site-refinery/vendor/extensions/articles/app/views/refinery/articles/admin/articles/_form.html.erb",
+		"/Users/mwilson/Documents/Repo/pure-site-refinery/db/migrate/20121114235859_create_articles_articles.refinery_articles.rb",
+		"/Users/mwilson/Documents/Repo/pure-site-refinery/vendor/extensions/articles/db/migrate/1_create_articles_articles.rb",
+		"/Users/mwilson/Documents/Repo/pure-site-refinery/.gitignore",
+		"/Users/mwilson/Documents/Repo/pure-site-refinery/vendor/extensions/projects/db/migrate/1_create_projects_projects.rb",
+		"/Users/mwilson/Documents/Repo/pure-site-refinery/db/migrate/20121017170942_create_projects_projects.refinery_projects.rb",
+		"/Users/mwilson/Documents/Repo/pure-site-refinery/db/migrate/20121112232501_add_project_type_to_project.rb",
+		"/Users/mwilson/Documents/Repo/pure-site-refinery/vendor/extensions/projects/app/views/refinery/projects/admin/projects/_form.html.erb",
+		"/Users/mwilson/Documents/Repo/pure-site-refinery/db/migrate/20121112185501_add_project_type_to_projects.rb",
+		"/Users/mwilson/Documents/Repo/pure-site-refinery/config/initializers/refinery/core.rb",
+		"/Users/mwilson/Documents/Repo/pure-site-refinery/config/initializers/refinery/images.rb",
+		"/Users/mwilson/Documents/Repo/pure-site-refinery/config/application.rb",
+		"/Users/mwilson/Documents/Repo/pure-site-refinery/app/views/pages/cessna.html.erb",
+		"/Users/mwilson/Documents/Repo/pure-site/config/routes.rb",
+		"/Users/mwilson/Documents/Repo/pure-site/config/initializers/refinery/authentication.rb",
+		"/Users/mwilson/Documents/Repo/pure-site/app/controllers/pages_controller.rb",
+		"/Users/mwilson/Documents/Repo/pure-site/app/assets/stylesheets/pages.css.scss",
+		"/Users/mwilson/Documents/Repo/pure-site/app/views/pages/index.html.erb",
+		"/Users/mwilson/Documents/Repo/pure-site/app/views/pages/stetson.html.erb",
+		"/Users/mwilson/Documents/Repo/pure-site/Gemfile",
+		"/Users/mwilson/Documents/Repo/pure-site/app/views/pages/ncm.html.erb",
+		"/Users/mwilson/Documents/Repo/pure-site/app/views/pages/laphil.html.erb",
+		"/Users/mwilson/Documents/Repo/pure-site/app/views/pages/aopa.html.erb",
+		"/Users/mwilson/Documents/Repo/pure-site/app/views/pages/wyoming.html.erb",
+		"/Users/mwilson/Documents/Repo/pure-site/app/views/pages/willie.html.erb",
+		"/Users/mwilson/Documents/Repo/pure-site/app/views/pages/specialolympics.html.erb",
+		"/Users/mwilson/Documents/Repo/pure-site/app/views/pages/peaberry.html.erb",
+		"/Users/mwilson/Documents/Repo/pure-site/app/views/pages/metrodenver.html.erb",
+		"/Users/mwilson/Documents/Repo/pure-site/app/views/pages/cessna.html.erb",
+		"/Users/mwilson/Documents/Repo/pure-site/app/views/pages/bellco.html.erb",
+		"/Users/mwilson/Documents/Repo/pure-site/app/controllers/secret_constroller.rb",
+		"/Users/mwilson/Documents/Repo/pure-site/app/assets/images/btn_email.png",
+		"/Users/mwilson/Documents/Repo/pure-site/app/assets/stylesheets/application.scss",
+		"/Users/mwilson/Documents/Repo/pure-site/app/assets/stylesheets/foundation_and_overrides.scss",
+		"/Users/mwilson/Documents/Repo/pure-site/app/views/layouts/application.html.erb",
+		"/Users/mwilson/Documents/Repo/pure-site/app/assets/javascripts/application.js",
+		"/Users/mwilson/Documents/Repo/pure-site/.gitignore",
+		"/Users/mwilson/Documents/Repo/ncm_timeline/app/views/pages/index.html.erb",
+		"/Users/mwilson/Documents/Repo/ncm_timeline/ncm_timeline.sublime-project"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"<script src=\"javascripts/",
+			"#footer",
+			".footer",
+			".close",
+			"#ribbon",
+			".screen.intro",
+			".column_one",
+			".loader",
+			".column",
+			"console",
+			"initInterface",
+			".fancybox-close",
+			".fancy",
+			"toString",
+			"$maxWidth",
+			".fancy"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"<script src=\"/assets/javascripts/"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "ee_index.html",
+					"settings":
+					{
+						"buffer_size": 1450,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								15,
+								15
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"pages",
+				"app/controllers/pages_controller.rb"
+			],
+			[
+				"routes",
+				"config/routes.rb"
+			],
+			[
+				"in",
+				"app/views/pages/index.html.erb"
+			],
+			[
+				"appl",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"index",
+				"app/views/pages/index.html.erb"
+			],
+			[
+				"page",
+				"app/controllers/pages_controller.rb"
+			],
+			[
+				"about",
+				"app/views/pages/aboutus.html.erb"
+			],
+			[
+				"project",
+				"app/views/layouts/project.html.erb"
+			],
+			[
+				"projects",
+				"vendor/extensions/projects/app/controllers/refinery/projects/projects_controller.rb"
+			],
+			[
+				"show",
+				"vendor/extensions/projects/app/views/refinery/projects/projects/show.html.erb"
+			],
+			[
+				"pa",
+				"app/assets/javascripts/pages.js"
+			],
+			[
+				"blog",
+				"app/views/pages/blog.html.erb"
+			],
+			[
+				"apl",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"them",
+				"app/assets/stylesheets/theme.css.scss"
+			],
+			[
+				"articl",
+				"vendor/extensions/articles/app/controllers/refinery/articles/articles_controller.rb"
+			],
+			[
+				"",
+				"vendor/extensions/articles/app/views/refinery/articles/articles/show.html.erb"
+			],
+			[
+				"inde",
+				"app/views/pages/index.html.erb"
+			],
+			[
+				"proj",
+				"vendor/extensions/projects/app/controllers/refinery/projects/projects_controller.rb"
+			],
+			[
+				"app",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"ind",
+				"app/views/pages/index.html.erb"
+			],
+			[
+				"dev",
+				"config/environments/development.rb"
+			],
+			[
+				"pro",
+				"config/environments/production.rb"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"a",
+				"app/views/layouts/application.html.erb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 531.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/mwilson/Documents/Repo/michaelthomaswilson/michaelthomaswilson.sublime-project"
+			]
+		],
+		"width": 693.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 511.0,
+	"status_bar_visible": true
+}

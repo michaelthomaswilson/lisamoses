@@ -27,10 +27,10 @@ h1 span {
 
 /* line 71, ../sass/custom.scss */
 h2 {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "prenton", sans-serif;
   font-weight: 300;
   font-size: 22px;
-  letter-spacing: .05em;
+  letter-spacing: .2em;
   color: #808081;
   margin-top: 0;
 }
@@ -60,7 +60,7 @@ p {
 .about h2, .about h3, .contact h2, .contact h3 {
   color: #cc9f33;
   text-transform: uppercase;
-  font-family: "Libre Baskerville", serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 500;
   letter-spacing: .05em;
   font-size: 20px;
@@ -73,7 +73,7 @@ p {
 }
 /* line 119, ../sass/custom.scss */
 .about p, .contact p {
-  font-family: "Libre Baskerville", serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 500;
   line-height: 2em;
 }
@@ -120,9 +120,9 @@ p {
 }
 /* line 165, ../sass/custom.scss */
 .intro p {
-  font-family: "Libre Baskerville", serif;
-  font-weight: 700;
-  font-size: 14px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
   line-height: 2.2em;
   letter-spacing: .05em;
 }
@@ -278,7 +278,7 @@ p {
   padding: 0 25px;
   font-size: 30px;
   color: #808081;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "prenton", sans-serif;
   font-weight: 300;
 }
 /* line 336, ../sass/custom.scss */

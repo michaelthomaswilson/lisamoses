@@ -25,7 +25,7 @@ $white: #fff;
 }
 
 @mixin sans-light {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'prenton', sans-serif;
 	font-weight: 300;
 }
 
@@ -71,7 +71,7 @@ h1 {
 h2 {
 	@include sans-light;
 	font-size: 22px;
-	letter-spacing: .05em;
+	letter-spacing: .2em;
 	color: $gray;
 	margin-top: 0;
 }
@@ -105,7 +105,7 @@ p {
 	h2, h3 {
 		color: $yellow;
 		text-transform: uppercase;
-		@include serif-normal;
+		@include sans-normal;
 		letter-spacing: .05em;
 		font-size: 20px;
 	}
@@ -117,7 +117,7 @@ p {
 	}
 
 	p {
-		@include serif-normal;
+		@include sans-normal;
 		line-height: 2em;
 	}
 
@@ -163,8 +163,8 @@ p {
 	margin-bottom: 35px;
 
 	p {
-		@include serif-bold;
-		font-size: 14px;
+		@include sans-normal;
+		font-size: 15px;
 		line-height: 2.2em;
 		letter-spacing: .05em;
 	}
