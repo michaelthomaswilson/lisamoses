@@ -23,7 +23,21 @@
 	{embed="embedded/categories"}
 
 	<!-- portfolio area -->
+	<div class="row">
 
+		<ul class="block-grid three-up mobile">
+			{exp:channel:entries channel="projects"}
+			<li class="capsule">
+				<a href="{url_title}">
+					<img alt="{title}" src="{home_image}">
+					<label>{title}</label>
+				</a>
+			</li>
+			{/exp:channel:entries}
+		</ul>
+	</div>
+
+	<!--
 	<div class="row">
 		<div class="four columns capsule">
 			<a href="project.html">
@@ -44,26 +58,5 @@
 			</a>
 		</div>
 	</div>
-
-	<div class="row">
-		<div class="four columns capsule">
-			<a href="project.html">
-				<img alt="project image">
-				<label>fa:: artist books</label>
-			</a>
-		</div>
-		<div class="four columns capsule">
-			<a href="project.html">
-				<img alt="project image">
-				<label>fa:: artist books</label>
-			</a>
-		</div>
-		<div class="four columns capsule">
-			<a href="project.html">
-				<img alt="project image">
-				<label>fa:: artist books</label>
-			</a>
-		</div>
-	</div>
-
+	-->
 {footer}
