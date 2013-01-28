@@ -28,9 +28,12 @@
 		<ul class="block-grid three-up mobile">
 			{exp:channel:entries channel="projects"}
 			<li class="capsule">
-				<a href="{url_title}">
+				<a href="{path='site/project'}/{url_title}">
 					<img alt="{title}" src="{home_image}">
-					<label>{title}</label>
+					<label>
+						{categories}{category_short}{/categories}
+						{title}
+					</label>
 				</a>
 			</li>
 			{/exp:channel:entries}
