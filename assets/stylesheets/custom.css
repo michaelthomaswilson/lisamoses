@@ -1,177 +1,263 @@
+/* line 49, ../sass/custom.scss */
 html, body {
-  height: 100%; }
+  height: 100%;
+}
 
+/* line 53, ../sass/custom.scss */
 body {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  color: #808081; }
+  color: #808081;
+}
 
+/* line 59, ../sass/custom.scss */
 h1 {
   font-family: "Libre Baskerville", serif;
   font-weight: 500;
   font-size: 18px;
   letter-spacing: .3em;
   color: #808081;
-  margin-top: 40px; }
-  h1 span {
-    color: #cc9f33; }
+  margin-top: 40px;
+}
+/* line 66, ../sass/custom.scss */
+h1 span {
+  color: #cc9f33;
+}
 
+/* line 71, ../sass/custom.scss */
 h2 {
   font-family: "prenton", sans-serif;
   font-weight: 300;
   font-size: 22px;
   letter-spacing: .2em;
   color: #808081;
-  margin-top: 0; }
+  margin-top: 0;
+}
 
+/* line 79, ../sass/custom.scss */
 hr {
   height: 2px;
   width: 100%;
   margin: 40px 0 50px;
   background: url("../images/dotted.gif") repeat-x;
-  border: none; }
+  border: none;
+}
 
+/* line 87, ../sass/custom.scss */
 p {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 500;
   font-size: 15px;
-  letter-spacing: .05em; }
+  letter-spacing: .05em;
+}
 
+/* line 101, ../sass/custom.scss */
 .about a, .contact a {
-  color: #cc9f33; }
+  color: #cc9f33;
+}
+/* line 105, ../sass/custom.scss */
 .about h2, .about h3, .contact h2, .contact h3 {
   color: #cc9f33;
   text-transform: uppercase;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 500;
   letter-spacing: .05em;
-  font-size: 20px; }
+  font-size: 20px;
+}
+/* line 113, ../sass/custom.scss */
 .about h3, .contact h3 {
   text-transform: none;
   font-size: 16px;
-  margin-top: 0; }
+  margin-top: 0;
+}
+/* line 119, ../sass/custom.scss */
 .about p, .contact p {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 500;
-  line-height: 2em; }
+  line-height: 2em;
+}
 
+/* line 127, ../sass/custom.scss */
 .contact h2, .contact h3 {
-  color: #808081; }
+  color: #808081;
+}
 
+/* line 132, ../sass/custom.scss */
 .capsule {
-  margin-bottom: 35px; }
-  .capsule a {
-    height: 100%;
-    width: 100%; }
-  .capsule img {
-    display: block;
-    height: 135px;
-    width: 330px;
-    background: #ccc; }
-  .capsule label {
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    margin: 15px 0;
-    letter-spacing: .05em; }
+  margin-bottom: 35px;
+}
+/* line 136, ../sass/custom.scss */
+.capsule a {
+  height: 100%;
+  width: 100%;
+}
+/* line 141, ../sass/custom.scss */
+.capsule img {
+  display: block;
+  height: 135px;
+  width: 330px;
+  background: #ccc;
+}
+/* line 148, ../sass/custom.scss */
+.capsule label {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  margin: 15px 0;
+  letter-spacing: .05em;
+}
 
+/* line 156, ../sass/custom.scss */
 .clearfooter {
   height: 75px;
-  clear: both; }
+  clear: both;
+}
 
+/* line 161, ../sass/custom.scss */
 .intro {
-  margin-bottom: 35px; }
-  .intro p {
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 2.2em;
-    letter-spacing: .05em; }
+  margin-bottom: 35px;
+}
+/* line 165, ../sass/custom.scss */
+.intro p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 2.2em;
+  letter-spacing: .05em;
+}
 
+/* line 173, ../sass/custom.scss */
 .nav-bar, .nav-bar.categories {
-  background: none !important; }
-  .nav-bar li, .nav-bar li:last-child, .nav-bar li:first-child, .nav-bar.categories li, .nav-bar.categories li:last-child, .nav-bar.categories li:first-child {
-    border: 0;
-    box-shadow: none !important; }
-    .nav-bar li:hover, .nav-bar li:last-child:hover, .nav-bar li:first-child:hover, .nav-bar.categories li:hover, .nav-bar.categories li:last-child:hover, .nav-bar.categories li:first-child:hover {
-      background: none; }
-    .nav-bar li.active, .nav-bar li:last-child.active, .nav-bar li:first-child.active, .nav-bar.categories li.active, .nav-bar.categories li:last-child.active, .nav-bar.categories li:first-child.active {
-      background: none; }
-      .nav-bar li.active a, .nav-bar li:last-child.active a, .nav-bar li:first-child.active a, .nav-bar.categories li.active a, .nav-bar.categories li:last-child.active a, .nav-bar.categories li:first-child.active a {
-        color: #808081 !important; }
-        .nav-bar li.active a:hover, .nav-bar li:last-child.active a:hover, .nav-bar li:first-child.active a:hover, .nav-bar.categories li.active a:hover, .nav-bar.categories li:last-child.active a:hover, .nav-bar.categories li:first-child.active a:hover {
-          background: none !important; }
-    .nav-bar li a, .nav-bar li a:first-child, .nav-bar li a:last-child, .nav-bar li:last-child a, .nav-bar li:last-child a:first-child, .nav-bar li:last-child a:last-child, .nav-bar li:first-child a, .nav-bar li:first-child a:first-child, .nav-bar li:first-child a:last-child, .nav-bar.categories li a, .nav-bar.categories li a:first-child, .nav-bar.categories li a:last-child, .nav-bar.categories li:last-child a, .nav-bar.categories li:last-child a:first-child, .nav-bar.categories li:last-child a:last-child, .nav-bar.categories li:first-child a, .nav-bar.categories li:first-child a:first-child, .nav-bar.categories li:first-child a:last-child {
-      color: white;
-      border: 0;
-      font-size: 18px; }
-      .nav-bar li a:hover, .nav-bar li a:first-child:hover, .nav-bar li a:last-child:hover, .nav-bar li:last-child a:hover, .nav-bar li:last-child a:first-child:hover, .nav-bar li:last-child a:last-child:hover, .nav-bar li:first-child a:hover, .nav-bar li:first-child a:first-child:hover, .nav-bar li:first-child a:last-child:hover, .nav-bar.categories li a:hover, .nav-bar.categories li a:first-child:hover, .nav-bar.categories li a:last-child:hover, .nav-bar.categories li:last-child a:hover, .nav-bar.categories li:last-child a:first-child:hover, .nav-bar.categories li:last-child a:last-child:hover, .nav-bar.categories li:first-child a:hover, .nav-bar.categories li:first-child a:first-child:hover, .nav-bar.categories li:first-child a:last-child:hover {
-        background-color: none !important; }
+  background: none !important;
+}
+/* line 178, ../sass/custom.scss */
+.nav-bar li, .nav-bar li:last-child, .nav-bar li:first-child, .nav-bar.categories li, .nav-bar.categories li:last-child, .nav-bar.categories li:first-child {
+  border: 0;
+  box-shadow: none !important;
+}
+/* line 182, ../sass/custom.scss */
+.nav-bar li:hover, .nav-bar li:last-child:hover, .nav-bar li:first-child:hover, .nav-bar.categories li:hover, .nav-bar.categories li:last-child:hover, .nav-bar.categories li:first-child:hover {
+  background: none;
+}
+/* line 186, ../sass/custom.scss */
+.nav-bar li.active, .nav-bar li:last-child.active, .nav-bar li:first-child.active, .nav-bar.categories li.active, .nav-bar.categories li:last-child.active, .nav-bar.categories li:first-child.active {
+  background: none;
+}
+/* line 189, ../sass/custom.scss */
+.nav-bar li.active a, .nav-bar li:last-child.active a, .nav-bar li:first-child.active a, .nav-bar.categories li.active a, .nav-bar.categories li:last-child.active a, .nav-bar.categories li:first-child.active a {
+  color: #808081 !important;
+}
+/* line 192, ../sass/custom.scss */
+.nav-bar li.active a:hover, .nav-bar li:last-child.active a:hover, .nav-bar li:first-child.active a:hover, .nav-bar.categories li.active a:hover, .nav-bar.categories li:last-child.active a:hover, .nav-bar.categories li:first-child.active a:hover {
+  background: none !important;
+}
+/* line 198, ../sass/custom.scss */
+.nav-bar li a, .nav-bar li a:first-child, .nav-bar li a:last-child, .nav-bar li:last-child a, .nav-bar li:last-child a:first-child, .nav-bar li:last-child a:last-child, .nav-bar li:first-child a, .nav-bar li:first-child a:first-child, .nav-bar li:first-child a:last-child, .nav-bar.categories li a, .nav-bar.categories li a:first-child, .nav-bar.categories li a:last-child, .nav-bar.categories li:last-child a, .nav-bar.categories li:last-child a:first-child, .nav-bar.categories li:last-child a:last-child, .nav-bar.categories li:first-child a, .nav-bar.categories li:first-child a:first-child, .nav-bar.categories li:first-child a:last-child {
+  color: white;
+  border: 0;
+  font-size: 18px;
+}
+/* line 203, ../sass/custom.scss */
+.nav-bar li a:hover, .nav-bar li a:first-child:hover, .nav-bar li a:last-child:hover, .nav-bar li:last-child a:hover, .nav-bar li:last-child a:first-child:hover, .nav-bar li:last-child a:last-child:hover, .nav-bar li:first-child a:hover, .nav-bar li:first-child a:first-child:hover, .nav-bar li:first-child a:last-child:hover, .nav-bar.categories li a:hover, .nav-bar.categories li a:first-child:hover, .nav-bar.categories li a:last-child:hover, .nav-bar.categories li:last-child a:hover, .nav-bar.categories li:last-child a:first-child:hover, .nav-bar.categories li:last-child a:last-child:hover, .nav-bar.categories li:first-child a:hover, .nav-bar.categories li:first-child a:first-child:hover, .nav-bar.categories li:first-child a:last-child:hover {
+  background-color: none !important;
+}
 
+/* line 210, ../sass/custom.scss */
 .nav-bar.categories {
-  margin-bottom: 60px; }
-  .nav-bar.categories li.active, .nav-bar.categories li:last-child.active, .nav-bar.categories li:first-child.active {
-    background: none; }
-    .nav-bar.categories li.active a, .nav-bar.categories li:last-child.active a, .nav-bar.categories li:first-child.active a {
-      color: #808081 !important; }
-      .nav-bar.categories li.active a:hover, .nav-bar.categories li:last-child.active a:hover, .nav-bar.categories li:first-child.active a:hover {
-        background: none !important; }
-  .nav-bar.categories li a, .nav-bar.categories li a:first-child, .nav-bar.categories li a:last-child, .nav-bar.categories li:last-child a, .nav-bar.categories li:last-child a:first-child, .nav-bar.categories li:last-child a:last-child, .nav-bar.categories li:first-child a, .nav-bar.categories li:first-child a:first-child, .nav-bar.categories li:first-child a:last-child {
-    color: #808081;
-    border: 0;
-    font-size: 18px;
-    padding-right: 5px; }
-    .nav-bar.categories li a:hover, .nav-bar.categories li a:first-child:hover, .nav-bar.categories li a:last-child:hover, .nav-bar.categories li:last-child a:hover, .nav-bar.categories li:last-child a:first-child:hover, .nav-bar.categories li:last-child a:last-child:hover, .nav-bar.categories li:first-child a:hover, .nav-bar.categories li:first-child a:first-child:hover, .nav-bar.categories li:first-child a:last-child:hover {
-      background-color: none !important; }
+  margin-bottom: 60px;
+}
+/* line 216, ../sass/custom.scss */
+.nav-bar.categories li.active, .nav-bar.categories li:last-child.active, .nav-bar.categories li:first-child.active {
+  background: none;
+}
+/* line 219, ../sass/custom.scss */
+.nav-bar.categories li.active a, .nav-bar.categories li:last-child.active a, .nav-bar.categories li:first-child.active a {
+  color: #808081 !important;
+}
+/* line 222, ../sass/custom.scss */
+.nav-bar.categories li.active a:hover, .nav-bar.categories li:last-child.active a:hover, .nav-bar.categories li:first-child.active a:hover {
+  background: none !important;
+}
+/* line 228, ../sass/custom.scss */
+.nav-bar.categories li a, .nav-bar.categories li a:first-child, .nav-bar.categories li a:last-child, .nav-bar.categories li:last-child a, .nav-bar.categories li:last-child a:first-child, .nav-bar.categories li:last-child a:last-child, .nav-bar.categories li:first-child a, .nav-bar.categories li:first-child a:first-child, .nav-bar.categories li:first-child a:last-child {
+  color: #808081;
+  border: 0;
+  font-size: 18px;
+  padding-right: 5px;
+}
+/* line 234, ../sass/custom.scss */
+.nav-bar.categories li a:hover, .nav-bar.categories li a:first-child:hover, .nav-bar.categories li a:last-child:hover, .nav-bar.categories li:last-child a:hover, .nav-bar.categories li:last-child a:first-child:hover, .nav-bar.categories li:last-child a:last-child:hover, .nav-bar.categories li:first-child a:hover, .nav-bar.categories li:first-child a:first-child:hover, .nav-bar.categories li:first-child a:last-child:hover {
+  background-color: none !important;
+}
 
+/* line 241, ../sass/custom.scss */
 .project {
   display: block;
   width: 100%;
   height: auto;
   min-height: 400px;
-  background: #808081; }
+  background: #808081;
+}
 
+/* line 249, ../sass/custom.scss */
 .project-nav {
   margin: 0;
   margin-top: 20px;
   font-family: "Libre Baskerville", serif;
   font-weight: 500;
-  text-transform: uppercase; }
-  .project-nav li a, .project-nav li a:first-child, .project-nav li a:last-child, .project-nav li:last-child a, .project-nav li:last-child a:first-child, .project-nav li:last-child a:last-child, .project-nav li:first-child a, .project-nav li:first-child a:first-child, .project-nav li:first-child a:last-child {
-    font-size: 16px !important;
-    letter-spacing: .07em; }
+  text-transform: uppercase;
+}
+/* line 257, ../sass/custom.scss */
+.project-nav li a, .project-nav li a:first-child, .project-nav li a:last-child, .project-nav li:last-child a, .project-nav li:last-child a:first-child, .project-nav li:last-child a:last-child, .project-nav li:first-child a, .project-nav li:first-child a:first-child, .project-nav li:first-child a:last-child {
+  font-size: 16px !important;
+  letter-spacing: .07em;
+}
 
+/* line 265, ../sass/custom.scss */
 .title h2 {
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-size: 18px;
+}
 
+/* line 277, ../sass/custom.scss */
 #container {
   position: relative;
   min-height: 100%;
   margin-bottom: -75px;
-  padding-bottom: 10px; }
+  padding-bottom: 10px;
+}
 
+/* line 284, ../sass/custom.scss */
 #footer {
   position: relative;
   width: 100%;
   height: 75px;
-  background: #cc9f33; }
-  #footer .row .columns.dotted {
-    background: url("../images/dotted-vertical.png") top left repeat-y;
-    height: 75px; }
-    #footer .row .columns.dotted.center {
-      text-align: center; }
-  #footer .row a {
-    margin: 0;
-    margin-top: 20px;
-    font-family: "Libre Baskerville", serif;
-    font-weight: 500;
-    text-transform: uppercase;
-    font-size: 15px;
-    letter-spacing: .07em;
-    color: white;
-    line-height: 75px; }
+  background: #cc9f33;
+}
+/* line 294, ../sass/custom.scss */
+#footer .row .columns.dotted {
+  background: url("../images/dotted-vertical.png") top left repeat-y;
+  height: 75px;
+}
+/* line 298, ../sass/custom.scss */
+#footer .row .columns.dotted.center {
+  text-align: center;
+}
+/* line 303, ../sass/custom.scss */
+#footer .row a {
+  margin: 0;
+  margin-top: 20px;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: .07em;
+  color: white;
+  line-height: 75px;
+}
 
+/* line 316, ../sass/custom.scss */
 #header {
   position: absolute;
   top: 0;
@@ -179,8 +265,10 @@ p {
   z-index: 0;
   width: 100%;
   height: 85px;
-  background: #cc9f33; }
+  background: #cc9f33;
+}
 
+/* line 326, ../sass/custom.scss */
 #image-nav {
   position: absolute;
   right: -10px;
@@ -188,15 +276,20 @@ p {
   width: auto;
   height: 20px;
   text-align: right;
-  line-height: 20px; }
-  #image-nav a {
-    display: inline-block;
-    padding: 0 25px;
-    font-size: 30px;
-    color: #808081;
-    font-family: "prenton", sans-serif;
-    font-weight: 300; }
-  #image-nav span {
-    position: relative;
-    display: inline-block;
-    top: -5px; }
+  line-height: 20px;
+}
+/* line 335, ../sass/custom.scss */
+#image-nav a {
+  display: inline-block;
+  padding: 0 25px;
+  font-size: 30px;
+  color: #808081;
+  font-family: "prenton", sans-serif;
+  font-weight: 300;
+}
+/* line 343, ../sass/custom.scss */
+#image-nav span {
+  position: relative;
+  display: inline-block;
+  top: -5px;
+}
