@@ -173,22 +173,24 @@ p {
 	a {
 		height: 100%;
 		width: 100%;
-	}
 
-	img {
-		display: block;
-		height: 135px;
-		width: 330px;
-		//background: #ccc;
-		padding-left: 15px;
-	}
 
-	label {
-		@include sans-normal;
-		font-size: 16px;
-		margin: 15px 0;
-		letter-spacing: .05em;
-		padding-left: 15px;
+		img {
+			display: block;
+			height: auto;
+			max-height: 135px;
+			width: 100%;
+			max-width: 330px;
+			padding-left: 15px;
+		}
+
+		label {
+			@include sans-normal;
+			font-size: 16px;
+			margin: 15px 0;
+			letter-spacing: .05em;
+			padding-left: 15px;
+		}
 	}
 }
 
