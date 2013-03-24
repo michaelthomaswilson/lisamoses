@@ -356,13 +356,14 @@ p {
   min-height: 50px;
   height: auto;
   background: #cc9f33;
+  overflow: auto;
 }
-/* line 426, ../sass/custom.scss */
+/* line 427, ../sass/custom.scss */
 #header .row {
   height: 45px;
 }
 
-/* line 431, ../sass/custom.scss */
+/* line 432, ../sass/custom.scss */
 #image-nav {
   position: absolute;
   right: -10px;
@@ -372,7 +373,7 @@ p {
   text-align: right;
   line-height: 20px;
 }
-/* line 440, ../sass/custom.scss */
+/* line 441, ../sass/custom.scss */
 #image-nav a {
   display: inline-block;
   padding: 0 25px;
@@ -381,7 +382,7 @@ p {
   font-family: "calluna-sans",sans-serif;
   font-weight: 300;
 }
-/* line 448, ../sass/custom.scss */
+/* line 449, ../sass/custom.scss */
 #image-nav span {
   position: relative;
   display: inline-block;
@@ -389,29 +390,34 @@ p {
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 463, ../sass/custom.scss */
+  /* line 464, ../sass/custom.scss */
   ul.nav-bar {
     margin: 0;
   }
-  /* line 466, ../sass/custom.scss */
+  /* line 467, ../sass/custom.scss */
   ul.nav-bar li {
     min-height: 44px;
     border-bottom: 1px solid #ffdd8c !important;
   }
-  /* line 470, ../sass/custom.scss */
+  /* line 471, ../sass/custom.scss */
   ul.nav-bar li a {
     line-height: 44px;
   }
 
-  /* line 477, ../sass/custom.scss */
+  /* line 478, ../sass/custom.scss */
   ul.nav-bar.categories li {
     border-bottom: 1px solid white !important;
     background-color: #ffecbf;
   }
 
-  /* line 483, ../sass/custom.scss */
+  /* line 484, ../sass/custom.scss */
   .image_holder {
     height: auto;
     width: 100%;
+  }
+
+  /* line 490, ../sass/custom.scss */
+  #header .row {
+    height: auto;
   }
 }

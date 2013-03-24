@@ -422,6 +422,7 @@ p {
 	min-height: 50px;
 	height: auto;
 	background: $yellow;
+	overflow: auto;
 
 	.row {
 		height: 45px;
@@ -483,6 +484,12 @@ p {
   .image_holder {
   	height:auto;
   	width: 100%;
+  }
+
+  #header {
+  	.row {
+  		height: auto;
+  	}
   }
 
 }
