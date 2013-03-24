@@ -416,7 +416,12 @@ p {
     width: 100%;
   }
 
-  /* line 490, ../sass/custom.scss */
+  /* line 491, ../sass/custom.scss */
+  .titleline .nine.columns h1 {
+    margin-top: 0;
+  }
+
+  /* line 498, ../sass/custom.scss */
   #header .row {
     height: auto;
   }
