@@ -40,7 +40,22 @@
 		</div>
 		<div class="clearfooter"></div>
 	</div>
+
 	<div id="footer">
+		<div class="row">
+			<ul class="nav-bar">
+			  <li class="dotted center"><a href="/">Projects</a></li>
+			  	{exp:channel:next_entry channel="projects"}				
+				<li class="dotted center"><a href="{path='site/project'}">&lt; &nbsp; Previous</a></li>
+			  	{/exp:channel:next_entry}
+
+			  	{exp:channel:prev_entry channel="projects"}
+				<li class="dotted center"><a href="{path='site/project'}">Next &nbsp; &gt;</a></li>
+			  	{/exp:channel:prev_entry}
+			  	<li class="dotted center end"></li>
+			</ul>
+		</div>
+		<!--
 		<div class="row">
 			<div class="two columns">
 				<a href="/">Projects</a>
@@ -57,6 +72,7 @@
 			</div>
 			<div class="four columns last dotted"></div>
 		</div>
+		-->
 	</div>
 </div>
 {footer}

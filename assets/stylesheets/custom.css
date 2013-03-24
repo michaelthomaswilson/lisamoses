@@ -330,20 +330,16 @@ p {
   width: 100%;
   height: 55px;
   background: #cc9f33;
+  overflow: hidden;
 }
-/* line 399, ../sass/custom.scss */
-#footer .row .columns.dotted {
-  background: url("../images/dotted-vertical.png") top left repeat-y;
-  height: 75px;
-}
-/* line 403, ../sass/custom.scss */
-#footer .row .columns.dotted.center {
-  text-align: center;
-}
-/* line 408, ../sass/custom.scss */
-#footer .row a {
+/* line 396, ../sass/custom.scss */
+#footer ul.nav-bar {
+  height: auto;
   margin: 0;
-  margin-top: 20px;
+}
+/* line 401, ../sass/custom.scss */
+#footer ul.nav-bar li a {
+  margin: 0;
   font-family: "Libre Baskerville", serif;
   font-weight: 500;
   text-transform: uppercase;
@@ -352,8 +348,49 @@ p {
   color: white;
   line-height: 55px;
 }
+/* line 411, ../sass/custom.scss */
+#footer ul.nav-bar li.dotted {
+  background: url("../images/dotted-vertical.png") top left repeat-y;
+  height: 55px;
+  padding: 0 25px 0 45px;
+}
+/* line 416, ../sass/custom.scss */
+#footer ul.nav-bar li.dotted.center {
+  text-align: center;
+}
+/* line 420, ../sass/custom.scss */
+#footer ul.nav-bar li.dotted.end {
+  background: url("../images/dotted-vertical.png") top right repeat-y;
+  padding: 0;
+  width: 5px;
+}
+/* line 429, ../sass/custom.scss */
+#footer .row {
+  		/*
+  
+  		a {
+  			margin: 0;
+  			margin-top: 20px;
+  			@include serif-normal;
+  			text-transform: uppercase;
+  			font-size: 15px;
+  			letter-spacing: .07em;
+  			color: $white;
+  			line-height: 55px;
+  		}
+  		*/
+}
+/* line 433, ../sass/custom.scss */
+#footer .row .columns.dotted {
+  background: url("../images/dotted-vertical.png") top left repeat-y;
+  height: 55px;
+}
+/* line 437, ../sass/custom.scss */
+#footer .row .columns.dotted.center {
+  text-align: center;
+}
 
-/* line 421, ../sass/custom.scss */
+/* line 457, ../sass/custom.scss */
 #header {
   position: relative;
   z-index: 0;
@@ -362,12 +399,12 @@ p {
   height: auto;
   background: #cc9f33;
 }
-/* line 432, ../sass/custom.scss */
+/* line 468, ../sass/custom.scss */
 #header .row {
   height: 45px;
 }
 
-/* line 437, ../sass/custom.scss */
+/* line 473, ../sass/custom.scss */
 #image-nav {
   position: absolute;
   right: -10px;
@@ -377,7 +414,7 @@ p {
   text-align: right;
   line-height: 20px;
 }
-/* line 446, ../sass/custom.scss */
+/* line 482, ../sass/custom.scss */
 #image-nav a {
   display: inline-block;
   padding: 0 25px;
@@ -386,7 +423,7 @@ p {
   font-family: "calluna-sans",sans-serif;
   font-weight: 300;
 }
-/* line 454, ../sass/custom.scss */
+/* line 490, ../sass/custom.scss */
 #image-nav span {
   position: relative;
   display: inline-block;
@@ -394,43 +431,58 @@ p {
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 469, ../sass/custom.scss */
+  /* line 505, ../sass/custom.scss */
   ul.nav-bar {
     margin: 0;
   }
-  /* line 472, ../sass/custom.scss */
+  /* line 508, ../sass/custom.scss */
   ul.nav-bar li {
     min-height: 44px;
     border-bottom: 1px solid #ffdd8c !important;
   }
-  /* line 476, ../sass/custom.scss */
+  /* line 512, ../sass/custom.scss */
   ul.nav-bar li a {
     line-height: 44px;
   }
 
-  /* line 483, ../sass/custom.scss */
+  /* line 519, ../sass/custom.scss */
   ul.nav-bar.categories li {
     border-bottom: 1px solid white !important;
     background-color: #ffecbf;
   }
 
-  /* line 489, ../sass/custom.scss */
+  /* line 525, ../sass/custom.scss */
   .image_holder {
     height: auto;
     width: 100%;
   }
 
-  /* line 494, ../sass/custom.scss */
+  /* line 530, ../sass/custom.scss */
   .right {
     text-align: left;
   }
 
-  /* line 500, ../sass/custom.scss */
+  /* line 536, ../sass/custom.scss */
   .titleline .nine.columns h1 {
     margin-top: 0;
   }
 
-  /* line 507, ../sass/custom.scss */
+  /* line 542, ../sass/custom.scss */
+  #footer {
+    height: auto;
+  }
+  /* line 549, ../sass/custom.scss */
+  #footer ul.nav-bar li.dotted.center {
+    text-align: left !important;
+    padding-left: 0;
+    background-image: none;
+  }
+  /* line 554, ../sass/custom.scss */
+  #footer ul.nav-bar li.dotted.center.end {
+    display: none;
+  }
+
+  /* line 563, ../sass/custom.scss */
   #header .row {
     height: auto;
   }
