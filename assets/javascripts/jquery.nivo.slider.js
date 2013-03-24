@@ -119,26 +119,6 @@
             timer = setInterval(function(){ nivoRun(slider, kids, settings, false); }, settings.pauseTime);
         }
         
-        // Add Direction nav
-        if(settings.directionNav){
-            slider.append('<div class="nivo-directionNav"><a class="nivo-prevNav">'+ settings.prevText +'</a><a class="nivo-nextNav">'+ settings.nextText +'</a></div>');
-            
-            $(slider).on('click', 'a.nivo-prevNav', function(){
-                if(vars.running) { return false; }
-                clearInterval(timer);
-                timer = '';
-                vars.currentSlide -= 2;
-                nivoRun(slider, kids, settings, 'prev');
-            });
-            
-            $(slider).on('click', 'a.nivo-nextNav', function(){
-                if(vars.running) { return false; }
-                clearInterval(timer);
-                timer = '';
-                nivoRun(slider, kids, settings, 'next');
-            });
-        }
-        
         // Add Control nav
         if(settings.controlNav){
             vars.controlNavEl = $('<div class="nivo-controlNav"></div>');
@@ -167,6 +147,27 @@
                 sliderImg.attr('src', vars.currentImage.attr('src'));
                 vars.currentSlide = $(this).attr('rel') - 1;
                 nivoRun(slider, kids, settings, 'control');
+            });
+        }
+
+        // Add Direction nav
+        if(settings.directionNav){
+            vars.controlNavEl.prepend('<a class="nivo-prevNav">'+ settings.prevText +'</a>');
+            vars.controlNavEl.append('<a class="nivo-nextNav">'+ settings.nextText +'</a>');
+            
+            $(slider).on('click', 'a.nivo-prevNav', function(){
+                if(vars.running) { return false; }
+                clearInterval(timer);
+                timer = '';
+                vars.currentSlide -= 2;
+                nivoRun(slider, kids, settings, 'prev');
+            });
+            
+            $(slider).on('click', 'a.nivo-nextNav', function(){
+                if(vars.running) { return false; }
+                clearInterval(timer);
+                timer = '';
+                nivoRun(slider, kids, settings, 'next');
             });
         }
         

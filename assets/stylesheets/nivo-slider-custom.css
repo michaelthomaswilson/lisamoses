@@ -1,0 +1,14 @@
+/* line 8, ../sass/nivo-slider-custom.scss */
+.nivo-controlNav {
+  position: relative;
+  text-align: center;
+}
+/* line 12, ../sass/nivo-slider-custom.scss */
+.nivo-controlNav a {
+  display: inline-block;
+  padding: 0 15px;
+  font-size: 16px;
+  color: #808081;
+  font-family: "calluna-sans",sans-serif;
+  font-weight: 300;
+}
