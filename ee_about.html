@@ -1,10 +1,9 @@
 {header}
 <body>
-	{embed="embedded/navigation"}
-
+	{embed="embedded/navigation" my_location="about"}
 		<div class="row">
 			<div class="twelve columns">
-				<h1>LISA MOSES <span>: :</span> INTERDISCIPLINARY ARTIST + DESIGNER</h1>
+				<h1><a href="/">LISA MOSES <span>: :</span> MULTIDISCIPLINARY STUDIO</a></h1>
 			</div>
 		</div>
 		<div class="row">
@@ -16,17 +15,17 @@
 			<div class="eight columns last">
 				{exp:channel:entries channel="about" limit="1"}
 				<div class="row">
-					<div class="three columns">
-						<h2>{title}</h2>
-						<h3><a href="{cv}">download cv</a></h3>
+					<div class="three columns right">
+						<h2>LISA MOSES</h2>
+						<h3 class="cv"><a href="{cv}">download cv</a></h3>
 					</div>
 					<div class="nine columns last">
-						<p>{education}</p>
+						{education}
 					</div>
 				</div>
 				<div class="row">
-					<div class="three columns">
-						<h3>statement</h3>
+					<div class="three columns right">
+						<h3 class="statement">statement</h3>
 					</div>
 					<div class="nine columns last">
 						{about_description}

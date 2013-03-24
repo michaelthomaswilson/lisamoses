@@ -1,0 +1,33 @@
+{header}
+<body>
+	{embed="embedded/navigation" my_location="contact"}
+
+		<div class="row">
+			<div class="twelve columns">
+				<h1><a href="/">LISA MOSES <span>: :</span> MULTIDISCIPLINARY STUDIO</a></h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="twelve columns">
+				<hr>
+			</div>
+		</div>
+		<div class="row contact">
+			{exp:channel:entries channel="contact" limit="1"}
+			<div class="two columns right">
+				<h2>CONTACT</h2>
+			</div>
+			<div class="three columns">	
+				{contact_information}		
+				<p><a href="mailto:{contact_email}">{contact_email}</a></p>
+			</div>
+			<div class="seven columns last">
+				<div class="row">
+					<div class="twelve columns">
+						<img class="project" src="{contact_image}">
+					</div>
+				</div>
+			</div>
+			{/exp:channel:entries}
+		</div>
+{footer}

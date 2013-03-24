@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"text",
+				"text-align"
+			],
+			[
 				"background",
 				"background-position"
 			],
@@ -52,10 +56,6 @@
 				"scroller"
 			],
 			[
-				"text",
-				"text-align"
-			],
-			[
 				"margin",
 				"margin-bottom"
 			],
@@ -88,10 +88,34 @@
 	"buffers":
 	[
 		{
+			"file": "ee_project.html",
+			"settings":
+			{
+				"buffer_size": 1581,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/sass/custom.scss",
+			"settings":
+			{
+				"buffer_size": 6508,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "ee_footer.html",
+			"settings":
+			{
+				"buffer_size": 1043,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "ee_index.html",
 			"settings":
 			{
-				"buffer_size": 1450,
+				"buffer_size": 726,
 				"line_ending": "Unix"
 			}
 		}
@@ -99,15 +123,19 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 360.0,
+		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"",
+				"Package Control: Install Package"
+			]
 		],
-		"width": 392.0
+		"width": 449.0
 	},
 	"console":
 	{
-		"height": 0.0
+		"height": 139.0
 	},
 	"distraction_free":
 	{
@@ -120,6 +148,24 @@
 	},
 	"file_history":
 	[
+		"/Users/mwilson/Documents/Repo/pure-site-refinery/pure-site.sublime-workspace",
+		"/Users/mwilson/Documents/Repo/lisamoses/ee_header.html",
+		"/Users/mwilson/Documents/Repo/lisamoses/ht.access",
+		"/Users/mwilson/Documents/Repo/lisamoses/index.html",
+		"/Users/mwilson/Documents/Repo/lisamoses/assets/javascripts/foundation/jquery.foundation.orbit.js",
+		"/Users/mwilson/Documents/Repo/lisamoses/assets/javascripts/foundation/app.js",
+		"/Users/mwilson/Documents/Repo/lisamoses/assets/javascripts/custom.js",
+		"/Users/mwilson/Documents/Repo/lisamoses/assets/sass/_settings.scss",
+		"/Users/mwilson/Documents/Repo/lisamoses/config.rb",
+		"/Users/mwilson/Documents/Repo/lisamoses/assets/stylesheets/app.css",
+		"/Users/mwilson/Documents/Repo/lisamoses/ee_index.html",
+		"/Users/mwilson/Documents/Repo/lisamoses/ee_about.html",
+		"/Users/mwilson/Documents/Repo/lisamoses/ee_contact.html",
+		"/Users/mwilson/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/mwilson/Documents/Repo/lisamoses/ee_navigation.html",
+		"/Users/mwilson/Documents/Repo/lisamoses/untitled.html",
+		"/Users/mwilson/Documents/Repo/lisamoses/contact.html",
+		"/Users/mwilson/Documents/Repo/lisamoses/ee_project.html",
 		"/Users/mwilson/Documents/Repo/lisamoses/project.html",
 		"/Users/mwilson/Documents/Repo/pure-site-refinery/app/views/layouts/project.html.erb",
 		"/Users/mwilson/Documents/Repo/pure-site-refinery/app/controllers/pages_controller.rb",
@@ -199,6 +245,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"orbit",
+			".head",
+			".headline",
+			"active",
 			"<script src=\"javascripts/",
 			"#footer",
 			".footer",
@@ -233,23 +283,104 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "ee_index.html",
+					"file": "ee_project.html",
 					"settings":
 					{
-						"buffer_size": 1450,
+						"buffer_size": 1581,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								15,
-								15
+								757,
+								757
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "assets/sass/custom.scss",
+					"settings":
+					{
+						"buffer_size": 6508,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2178,
+								2178
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2256.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "ee_footer.html",
+					"settings":
+					{
+						"buffer_size": 1043,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								1043
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "ee_index.html",
+					"settings":
+					{
+						"buffer_size": 726,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								726
 							]
 						],
 						"settings":
@@ -426,6 +557,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 511.0,
+	"side_bar_width": 306.0,
 	"status_bar_visible": true
 }

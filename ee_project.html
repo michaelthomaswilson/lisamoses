@@ -1,37 +1,37 @@
 {header}
 <body>
-	{embed="embedded/navigation"}
+<div id="container">
+	{embed="embedded/navigation" my_location="project"}
 
-		<div class="row">
-			<div class="twelve columns">
-				<h1>LISA MOSES <span>: :</span> INTERDISCIPLINARY ARTIST + DESIGNER</h1>
-			</div>
-		</div>
-		<div class="row">
-			<div class="twelve columns">
-				<hr>
-			</div>
-		</div>
+		{pageheader}
 		<div class="row">
 			{exp:channel:entries channel="projects" limit="1"}
-			<div class="two columns title">
+			<div class="two columns title right">
 				<h2>{title}</h2>
 			</div>
-			<div class="three columns">
-				<p>{description}</p>
+			<div class="three columns about">
+				{description}
 			</div>
 			<div class="seven columns last">
 				<div class="row">
 					<div class="twelve columns">
-						<img class="project" alt="project image">
+						<div class="slider-wrapper">
+						    <div id="slider" class="nivoSlider">
+						    	{reverse_related_entries}
+						        	<img src="{project_image}" alt="" />
+						        {/reverse_related_entries}
+						    </div>
+						</div>
 					</div>
 				</div>
 				<div class="row">
 					<div class="twelve columns">
 						<div id="image-nav">
-							<a href=""> &lt; </a> 
+							<!-- 
+							<a id="previous"> &lt; </a> 
 							<span>image 1 of 2</span>
-							<a href=""> &gt; </a>
+							<a id="next"> &gt; </a>
+						-->
 						</div>
 					</div>
 				</div>
@@ -40,4 +40,23 @@
 		</div>
 		<div class="clearfooter"></div>
 	</div>
+	<div id="footer">
+		<div class="row">
+			<div class="two columns">
+				<a href="/">Projects</a>
+			</div>
+			<div class="three columns dotted center">
+				{exp:channel:next_entry channel="projects"}				
+					<a href="{path='site/project'}">&lt; &nbsp; Previous</a>
+				{/exp:channel:next_entry}
+			</div>
+			<div class="three columns dotted center">
+				{exp:channel:prev_entry channel="projects"}
+					<a href="{path='site/project'}">Next &nbsp; &gt;</a>
+				{/exp:channel:prev_entry}
+			</div>
+			<div class="four columns last dotted"></div>
+		</div>
+	</div>
+</div>
 {footer}
