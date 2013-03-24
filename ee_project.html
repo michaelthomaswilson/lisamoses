@@ -17,7 +17,7 @@
 					<div class="twelve columns">
 						<div class="slider-wrapper">
 						    <div id="slider" class="nivoSlider">
-						    	{reverse_related_entries}
+						    	{reverse_related_entries sort="desc" orderby="date"}
 						        	<img src="{project_image}" alt="" />
 						        {/reverse_related_entries}
 						    </div>
@@ -55,24 +55,6 @@
 			  	<li class="dotted center end"></li>
 			</ul>
 		</div>
-		<!--
-		<div class="row">
-			<div class="two columns">
-				<a href="/">Projects</a>
-			</div>
-			<div class="three columns dotted center">
-				{exp:channel:next_entry channel="projects"}				
-					<a href="{path='site/project'}">&lt; &nbsp; Previous</a>
-				{/exp:channel:next_entry}
-			</div>
-			<div class="three columns dotted center">
-				{exp:channel:prev_entry channel="projects"}
-					<a href="{path='site/project'}">Next &nbsp; &gt;</a>
-				{/exp:channel:prev_entry}
-			</div>
-			<div class="four columns last dotted"></div>
-		</div>
-		-->
 	</div>
 </div>
 {footer}
