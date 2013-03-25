@@ -159,11 +159,11 @@ p {
 }
 
 /* line 219, ../sass/custom.scss */
-.intro {
+.intro, .about {
   margin-bottom: 0;
 }
 /* line 223, ../sass/custom.scss */
-.intro p {
+.intro p, .about p {
   font-family: "calluna-sans",sans-serif;
   font-weight: 500;
   font-size: 15px;
@@ -309,16 +309,17 @@ p {
 
 /* line 365, ../sass/custom.scss */
 .title h2 {
-  font-size: 14px;
+  font-size: 20px;
+  font-weight: 300;
   letter-spacing: 0.03em;
 }
 
-/* line 373, ../sass/custom.scss */
+/* line 374, ../sass/custom.scss */
 .titleline h1 {
   white-space: nowrap;
 }
 
-/* line 384, ../sass/custom.scss */
+/* line 385, ../sass/custom.scss */
 #container {
   position: relative;
   min-height: 100%;
@@ -326,7 +327,7 @@ p {
   padding-bottom: 10px;
 }
 
-/* line 391, ../sass/custom.scss */
+/* line 392, ../sass/custom.scss */
 #footer {
   position: relative;
   width: 100%;
@@ -334,12 +335,12 @@ p {
   background: #cc9f33;
   overflow: hidden;
 }
-/* line 398, ../sass/custom.scss */
+/* line 399, ../sass/custom.scss */
 #footer ul.nav-bar {
   height: auto;
   margin: 0;
 }
-/* line 403, ../sass/custom.scss */
+/* line 404, ../sass/custom.scss */
 #footer ul.nav-bar li a {
   margin: 0;
   font-family: "Libre Baskerville", serif;
@@ -350,23 +351,23 @@ p {
   color: white;
   line-height: 55px;
 }
-/* line 413, ../sass/custom.scss */
+/* line 414, ../sass/custom.scss */
 #footer ul.nav-bar li.dotted {
   background: url("../images/dotted-vertical.png") top left repeat-y;
   height: 55px;
   padding: 0 35px 0 48px;
 }
-/* line 418, ../sass/custom.scss */
+/* line 419, ../sass/custom.scss */
 #footer ul.nav-bar li.dotted.center {
   text-align: center;
 }
-/* line 422, ../sass/custom.scss */
+/* line 423, ../sass/custom.scss */
 #footer ul.nav-bar li.dotted.end {
   background: url("../images/dotted-vertical.png") top right repeat-y;
   padding: 0;
   width: 5px;
 }
-/* line 431, ../sass/custom.scss */
+/* line 432, ../sass/custom.scss */
 #footer .row {
   		/*
   
@@ -382,17 +383,17 @@ p {
   		}
   		*/
 }
-/* line 435, ../sass/custom.scss */
+/* line 436, ../sass/custom.scss */
 #footer .row .columns.dotted {
   background: url("../images/dotted-vertical.png") top left repeat-y;
   height: 55px;
 }
-/* line 439, ../sass/custom.scss */
+/* line 440, ../sass/custom.scss */
 #footer .row .columns.dotted.center {
   text-align: center;
 }
 
-/* line 459, ../sass/custom.scss */
+/* line 460, ../sass/custom.scss */
 #header {
   position: relative;
   z-index: 0;
@@ -401,12 +402,12 @@ p {
   height: auto;
   background: #cc9f33;
 }
-/* line 470, ../sass/custom.scss */
+/* line 471, ../sass/custom.scss */
 #header .row {
   height: 45px;
 }
 
-/* line 475, ../sass/custom.scss */
+/* line 476, ../sass/custom.scss */
 #image-nav {
   position: absolute;
   right: -10px;
@@ -416,7 +417,7 @@ p {
   text-align: right;
   line-height: 20px;
 }
-/* line 484, ../sass/custom.scss */
+/* line 485, ../sass/custom.scss */
 #image-nav a {
   display: inline-block;
   padding: 0 25px;
@@ -425,7 +426,7 @@ p {
   font-family: "calluna-sans",sans-serif;
   font-weight: 300;
 }
-/* line 492, ../sass/custom.scss */
+/* line 493, ../sass/custom.scss */
 #image-nav span {
   position: relative;
   display: inline-block;
@@ -433,58 +434,58 @@ p {
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 507, ../sass/custom.scss */
+  /* line 508, ../sass/custom.scss */
   ul.nav-bar {
     margin: 0;
   }
-  /* line 510, ../sass/custom.scss */
+  /* line 511, ../sass/custom.scss */
   ul.nav-bar li {
     min-height: 44px;
     border-bottom: 1px solid #ffdd8c !important;
   }
-  /* line 514, ../sass/custom.scss */
+  /* line 515, ../sass/custom.scss */
   ul.nav-bar li a {
     line-height: 44px;
   }
 
-  /* line 521, ../sass/custom.scss */
+  /* line 522, ../sass/custom.scss */
   ul.nav-bar.categories li {
     border-bottom: 1px solid white !important;
     background-color: #ffecbf;
   }
 
-  /* line 527, ../sass/custom.scss */
+  /* line 528, ../sass/custom.scss */
   .image_holder {
     height: auto;
     width: 100%;
   }
 
-  /* line 532, ../sass/custom.scss */
+  /* line 533, ../sass/custom.scss */
   .right {
     text-align: left;
   }
 
-  /* line 538, ../sass/custom.scss */
+  /* line 539, ../sass/custom.scss */
   .titleline .nine.columns h1 {
     margin-top: 0;
   }
 
-  /* line 544, ../sass/custom.scss */
+  /* line 545, ../sass/custom.scss */
   #footer {
     height: auto;
   }
-  /* line 551, ../sass/custom.scss */
+  /* line 552, ../sass/custom.scss */
   #footer ul.nav-bar li.dotted.center {
     text-align: left !important;
     padding-left: 0;
     background-image: none;
   }
-  /* line 556, ../sass/custom.scss */
+  /* line 557, ../sass/custom.scss */
   #footer ul.nav-bar li.dotted.center.end {
     display: none;
   }
 
-  /* line 565, ../sass/custom.scss */
+  /* line 566, ../sass/custom.scss */
   #header .row {
     height: auto;
   }
