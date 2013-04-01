@@ -120,7 +120,7 @@ p {
 	h2, h3 {
 		color: $yellow;
 		text-transform: uppercase;
-		@include sans-normal;
+		@include sans-light;
 		letter-spacing: .05em;
 		font-size: 20px;
 	}
