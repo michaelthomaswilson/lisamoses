@@ -33,3 +33,8 @@
 .slider-wrapper {
   padding-bottom: 20px;
 }
+
+/* line 49, ../sass/nivo-slider-custom.scss */
+#slider {
+  cursor: pointer;
+}

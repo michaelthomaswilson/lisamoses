@@ -183,7 +183,11 @@
                 timer = '';
                 nivoRun(slider, kids, settings, 'next');
             });
-*/
+            */
+
+            $(slider).on('click', function(){
+                nivoRun(slider, kids, settings, 'next');
+            });
 
             $('a.nivo-prevNav').on('click', function(){
                 if(vars.running) { return false; }
