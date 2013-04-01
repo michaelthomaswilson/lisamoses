@@ -88,11 +88,13 @@
         });
 
         //Create caption
-        slider.append($('<div class="nivo-caption"></div>'));
+        //slider.append($('<div class="nivo-caption"></div>'));
+        slider.after($('<div class="nivo-caption"></div>'));
         
         // Process caption function
         var processCaption = function(settings){
-            var nivoCaption = $('.nivo-caption', slider);
+            //var nivoCaption = $('.nivo-caption', slider);
+            var nivoCaption = $('.nivo-caption');
             if(vars.currentImage.attr('title') != '' && vars.currentImage.attr('title') != undefined){
                 var title = vars.currentImage.attr('title');
                 if(title.substr(0,1) == '#') title = $(title).html();   
@@ -123,6 +125,10 @@
         if(settings.controlNav){
             vars.controlNavEl = $('<div class="nivo-controlNav"></div>');
             slider.after(vars.controlNavEl);
+
+            //vars.controlNavEl.append('<a class="nivo-control" rel="'+ i +'">'+ (i + 1) +'</a>');
+            vars.controlNavEl.append('<span>image 1  of ' + vars.totalSlides + '</span>');
+            /*
             for(var i = 0; i < kids.length; i++){
                 if(settings.controlNavThumbs){
                     vars.controlNavEl.addClass('nivo-thumbs-enabled');
@@ -148,6 +154,7 @@
                 vars.currentSlide = $(this).attr('rel') - 1;
                 nivoRun(slider, kids, settings, 'control');
             });
+            */
         }
 
         // Add Direction nav
@@ -155,7 +162,11 @@
             vars.controlNavEl.prepend('<a class="nivo-prevNav">'+ settings.prevText +'</a>');
             vars.controlNavEl.append('<a class="nivo-nextNav">'+ settings.nextText +'</a>');
             
+            /*
             $(slider).on('click', 'a.nivo-prevNav', function(){
+
+                alert('PREVIOUS');
+
                 if(vars.running) { return false; }
                 clearInterval(timer);
                 timer = '';
@@ -164,6 +175,25 @@
             });
             
             $(slider).on('click', 'a.nivo-nextNav', function(){
+
+                alert('NEXT');
+
+                if(vars.running) { return false; }
+                clearInterval(timer);
+                timer = '';
+                nivoRun(slider, kids, settings, 'next');
+            });
+*/
+
+            $('a.nivo-prevNav').on('click', function(){
+                if(vars.running) { return false; }
+                clearInterval(timer);
+                timer = '';
+                vars.currentSlide -= 2;
+                nivoRun(slider, kids, settings, 'prev');
+            });
+
+            $('a.nivo-nextNav').on('click', function(){
                 if(vars.running) { return false; }
                 clearInterval(timer);
                 timer = '';
@@ -332,6 +362,12 @@
             if(settings.controlNav){
                 $('a', vars.controlNavEl).removeClass('active');
                 $('a:eq('+ vars.currentSlide +')', vars.controlNavEl).addClass('active');
+
+                //vars.controlNavEl = $('<div class="nivo-controlNav"></div>');
+                //slider.after(vars.controlNavEl);
+
+                //vars.controlNavEl.empty();
+                vars.controlNavEl.find('span').html('image ' + (vars.currentSlide+1) + '  of ' + vars.totalSlides);
             }
             
             // Process caption

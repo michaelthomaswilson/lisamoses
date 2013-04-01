@@ -1,9 +1,25 @@
 /* line 8, ../sass/nivo-slider-custom.scss */
-.nivo-controlNav {
-  position: relative;
-  text-align: center;
+.nivo-caption {
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 470px;
+  background: none !important;
+  font-size: 14px;
+  color: #808081;
+  font-family: "calluna-sans",sans-serif;
+  font-weight: 300;
 }
-/* line 12, ../sass/nivo-slider-custom.scss */
+
+/* line 20, ../sass/nivo-slider-custom.scss */
+.nivo-controlNav {
+  position: absolute !important;
+  bottom: -10px;
+  right: 0;
+  width: 200px;
+  padding: 5px 0;
+}
+/* line 27, ../sass/nivo-slider-custom.scss */
 .nivo-controlNav a {
   display: inline-block;
   padding: 0 15px;
@@ -11,4 +27,9 @@
   color: #808081;
   font-family: "calluna-sans",sans-serif;
   font-weight: 300;
+}
+
+/* line 45, ../sass/nivo-slider-custom.scss */
+.slider-wrapper {
+  padding-bottom: 20px;
 }
