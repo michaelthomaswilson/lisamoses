@@ -132,8 +132,8 @@ p {
 	}
 
 	p {
-		@include sans-normal;
-		line-height: 2em;
+		@include sans-light;
+		line-height: 1.6em;
 	}
 
 }
@@ -142,7 +142,7 @@ p {
 
 	p {
 		font-size: 14px;
-		line-height: 1.7em;
+		line-height: 1.6em;
 		margin-bottom: 12px;
 	}
 
@@ -221,9 +221,9 @@ p {
 	margin-bottom: 0; //35px;
 
 	p {
-		@include sans-normal;
-		font-size: 15px;
-		line-height: 2.0em;
+		@include sans-light;
+		font-size: 14px;
+		line-height: 1.6em;
 		letter-spacing: .05em;
 	}
 }
@@ -399,13 +399,14 @@ p {
 	ul.nav-bar {
 		height: auto;
 		margin: 0;
+		margin-left: 12px;
 
 		li {
 			a {
 				margin: 0;
 				@include serif-normal;
 				text-transform: uppercase;
-				font-size: 15px;
+				font-size: 14px;
 				letter-spacing: .07em;
 				color: $white;
 				line-height: 55px;
@@ -414,7 +415,7 @@ p {
 			&.dotted {
 				background: url('../images/dotted-vertical.png') top left repeat-y;
 				height: 55px;
-				padding: 0 35px 0 48px;
+				padding: 0 18px 0 20px;
 
 				&.center {
 					text-align: center;

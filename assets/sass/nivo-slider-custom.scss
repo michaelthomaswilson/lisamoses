@@ -1,4 +1,4 @@
-$gray: #808081;
+$gray: #686869;
 
 @mixin sans-light {
 	font-family: "calluna-sans",sans-serif;
@@ -15,6 +15,7 @@ $gray: #808081;
 	font-size: 14px;
 	color: $gray;
 	@include sans-light;
+	font-weight: 500;
 }
 
 .nivo-controlNav {
