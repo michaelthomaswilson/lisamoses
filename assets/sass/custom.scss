@@ -5,6 +5,7 @@
 ///////////////////////////////////////////////
 
 $gray: #808081;
+$headline-gray: #9a9a9c;
 $lightgray: #b3b3b5;
 $yellow: #CC9F33;
 $lightyellow: #ffdd8c;
@@ -123,6 +124,10 @@ p {
 		@include sans-light;
 		letter-spacing: .05em;
 		font-size: 20px;
+	}
+
+	h2 {
+		color: $headline-gray;
 	}
 
 	h3 {

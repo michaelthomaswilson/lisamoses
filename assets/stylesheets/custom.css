@@ -1,9 +1,9 @@
-/* line 55, ../sass/custom.scss */
+/* line 56, ../sass/custom.scss */
 html, body {
   height: 100%;
 }
 
-/* line 59, ../sass/custom.scss */
+/* line 60, ../sass/custom.scss */
 body {
   font-family: "calluna-sans",sans-serif;
   font-weight: 500;
@@ -11,7 +11,7 @@ body {
   color: #808081;
 }
 
-/* line 65, ../sass/custom.scss */
+/* line 66, ../sass/custom.scss */
 h1 {
   font-family: "Libre Baskerville", serif;
   font-weight: 500;
@@ -21,20 +21,20 @@ h1 {
   color: #808081;
   margin-top: 40px;
 }
-/* line 73, ../sass/custom.scss */
+/* line 74, ../sass/custom.scss */
 h1 span {
   color: #cc9f33;
 }
-/* line 77, ../sass/custom.scss */
+/* line 78, ../sass/custom.scss */
 h1 a {
   color: #808081;
 }
-/* line 80, ../sass/custom.scss */
+/* line 81, ../sass/custom.scss */
 h1 a:hover {
   color: #cc9f33;
 }
 
-/* line 86, ../sass/custom.scss */
+/* line 87, ../sass/custom.scss */
 h2 {
   font-family: "calluna-sans",sans-serif;
   font-weight: 300;
@@ -44,7 +44,7 @@ h2 {
   margin-top: 0;
 }
 
-/* line 94, ../sass/custom.scss */
+/* line 95, ../sass/custom.scss */
 hr {
   height: 2px;
   width: 100%;
@@ -53,7 +53,7 @@ hr {
   border: none;
 }
 
-/* line 102, ../sass/custom.scss */
+/* line 103, ../sass/custom.scss */
 p {
   font-family: "calluna-sans",sans-serif;
   font-weight: 500;
@@ -61,11 +61,11 @@ p {
   letter-spacing: .05em;
 }
 
-/* line 116, ../sass/custom.scss */
+/* line 117, ../sass/custom.scss */
 .about a, .contact a, .title a {
   color: #cc9f33;
 }
-/* line 120, ../sass/custom.scss */
+/* line 121, ../sass/custom.scss */
 .about h2, .about h3, .contact h2, .contact h3, .title h2, .title h3 {
   color: #808081;
   text-transform: capitalize;
@@ -74,49 +74,53 @@ p {
   letter-spacing: .05em;
   font-size: 20px;
 }
-/* line 128, ../sass/custom.scss */
+/* line 129, ../sass/custom.scss */
+.about h2, .contact h2, .title h2 {
+  color: #9a9a9c;
+}
+/* line 133, ../sass/custom.scss */
 .about h3, .contact h3, .title h3 {
   text-transform: none;
   font-size: 16px;
   margin-top: 0;
 }
-/* line 134, ../sass/custom.scss */
+/* line 139, ../sass/custom.scss */
 .about p, .contact p, .title p {
   font-family: "calluna-sans",sans-serif;
   font-weight: 300;
   line-height: 1.6em;
 }
 
-/* line 143, ../sass/custom.scss */
+/* line 148, ../sass/custom.scss */
 .about p {
   font-size: 14px;
   line-height: 1.6em;
   margin-bottom: 12px;
 }
-/* line 149, ../sass/custom.scss */
+/* line 154, ../sass/custom.scss */
 .about h3.cv {
   margin-top: 74px;
 }
-/* line 153, ../sass/custom.scss */
+/* line 158, ../sass/custom.scss */
 .about h3.statement {
   margin-top: 5px;
 }
 
-/* line 159, ../sass/custom.scss */
+/* line 164, ../sass/custom.scss */
 .block-grid.four-up > li {
   padding-bottom: 0;
 }
 
-/* line 169, ../sass/custom.scss */
+/* line 174, ../sass/custom.scss */
 .capsule {
   margin-bottom: 35px;
 }
-/* line 173, ../sass/custom.scss */
+/* line 178, ../sass/custom.scss */
 .capsule a {
   height: 100%;
   width: 100%;
 }
-/* line 178, ../sass/custom.scss */
+/* line 183, ../sass/custom.scss */
 .capsule a img {
   display: block;
   height: auto;
@@ -125,7 +129,7 @@ p {
   max-width: 330px;
   padding-left: 15px;
 }
-/* line 187, ../sass/custom.scss */
+/* line 192, ../sass/custom.scss */
 .capsule a label {
   font-family: "calluna-sans",sans-serif;
   font-weight: 500;
@@ -135,13 +139,13 @@ p {
   padding-left: 15px;
 }
 
-/* line 197, ../sass/custom.scss */
+/* line 202, ../sass/custom.scss */
 .clearfooter {
   height: 75px;
   clear: both;
 }
 
-/* line 202, ../sass/custom.scss */
+/* line 207, ../sass/custom.scss */
 .headline {
   position: absolute;
   top: 40px;
@@ -151,18 +155,18 @@ p {
   text-shadow: 0 0 1px white;
 }
 
-/* line 211, ../sass/custom.scss */
+/* line 216, ../sass/custom.scss */
 .image_holder {
   display: block;
   width: 670px;
   height: 400px;
 }
 
-/* line 219, ../sass/custom.scss */
+/* line 224, ../sass/custom.scss */
 .intro, .about {
   margin-bottom: 0;
 }
-/* line 223, ../sass/custom.scss */
+/* line 228, ../sass/custom.scss */
 .intro p, .about p {
   font-family: "calluna-sans",sans-serif;
   font-weight: 300;
@@ -171,73 +175,73 @@ p {
   letter-spacing: .05em;
 }
 
-/* line 231, ../sass/custom.scss */
+/* line 236, ../sass/custom.scss */
 .nav-bar, .nav-bar.categories {
   background: none !important;
 }
-/* line 236, ../sass/custom.scss */
+/* line 241, ../sass/custom.scss */
 .nav-bar li, .nav-bar li:last-child, .nav-bar li:first-child, .nav-bar.categories li, .nav-bar.categories li:last-child, .nav-bar.categories li:first-child {
   border: 0;
   box-shadow: none !important;
 }
-/* line 240, ../sass/custom.scss */
+/* line 245, ../sass/custom.scss */
 .nav-bar li:hover, .nav-bar li:last-child:hover, .nav-bar li:first-child:hover, .nav-bar.categories li:hover, .nav-bar.categories li:last-child:hover, .nav-bar.categories li:first-child:hover {
   background: none;
 }
-/* line 244, ../sass/custom.scss */
+/* line 249, ../sass/custom.scss */
 .nav-bar li.active, .nav-bar li:last-child.active, .nav-bar li:first-child.active, .nav-bar.categories li.active, .nav-bar.categories li:last-child.active, .nav-bar.categories li:first-child.active {
   background: none;
 }
-/* line 247, ../sass/custom.scss */
+/* line 252, ../sass/custom.scss */
 .nav-bar li.active a, .nav-bar li:last-child.active a, .nav-bar li:first-child.active a, .nav-bar.categories li.active a, .nav-bar.categories li:last-child.active a, .nav-bar.categories li:first-child.active a {
   color: #808081 !important;
 }
-/* line 250, ../sass/custom.scss */
+/* line 255, ../sass/custom.scss */
 .nav-bar li.active a:hover, .nav-bar li:last-child.active a:hover, .nav-bar li:first-child.active a:hover, .nav-bar.categories li.active a:hover, .nav-bar.categories li:last-child.active a:hover, .nav-bar.categories li:first-child.active a:hover {
   background: none !important;
 }
-/* line 256, ../sass/custom.scss */
+/* line 261, ../sass/custom.scss */
 .nav-bar li a, .nav-bar li a:first-child, .nav-bar li a:last-child, .nav-bar li:last-child a, .nav-bar li:last-child a:first-child, .nav-bar li:last-child a:last-child, .nav-bar li:first-child a, .nav-bar li:first-child a:first-child, .nav-bar li:first-child a:last-child, .nav-bar.categories li a, .nav-bar.categories li a:first-child, .nav-bar.categories li a:last-child, .nav-bar.categories li:last-child a, .nav-bar.categories li:last-child a:first-child, .nav-bar.categories li:last-child a:last-child, .nav-bar.categories li:first-child a, .nav-bar.categories li:first-child a:first-child, .nav-bar.categories li:first-child a:last-child {
   color: white;
   border: 0;
   font-size: 16px;
   padding-left: 15px;
 }
-/* line 262, ../sass/custom.scss */
+/* line 267, ../sass/custom.scss */
 .nav-bar li a:hover, .nav-bar li a:first-child:hover, .nav-bar li a:last-child:hover, .nav-bar li:last-child a:hover, .nav-bar li:last-child a:first-child:hover, .nav-bar li:last-child a:last-child:hover, .nav-bar li:first-child a:hover, .nav-bar li:first-child a:first-child:hover, .nav-bar li:first-child a:last-child:hover, .nav-bar.categories li a:hover, .nav-bar.categories li a:first-child:hover, .nav-bar.categories li a:last-child:hover, .nav-bar.categories li:last-child a:hover, .nav-bar.categories li:last-child a:first-child:hover, .nav-bar.categories li:last-child a:last-child:hover, .nav-bar.categories li:first-child a:hover, .nav-bar.categories li:first-child a:first-child:hover, .nav-bar.categories li:first-child a:last-child:hover {
   background-color: none !important;
 }
-/* line 266, ../sass/custom.scss */
+/* line 271, ../sass/custom.scss */
 .nav-bar li a.active, .nav-bar li a:first-child.active, .nav-bar li a:last-child.active, .nav-bar li:last-child a.active, .nav-bar li:last-child a:first-child.active, .nav-bar li:last-child a:last-child.active, .nav-bar li:first-child a.active, .nav-bar li:first-child a:first-child.active, .nav-bar li:first-child a:last-child.active, .nav-bar.categories li a.active, .nav-bar.categories li a:first-child.active, .nav-bar.categories li a:last-child.active, .nav-bar.categories li:last-child a.active, .nav-bar.categories li:last-child a:first-child.active, .nav-bar.categories li:last-child a:last-child.active, .nav-bar.categories li:first-child a.active, .nav-bar.categories li:first-child a:first-child.active, .nav-bar.categories li:first-child a:last-child.active {
   color: #808081;
 }
 
-/* line 273, ../sass/custom.scss */
+/* line 278, ../sass/custom.scss */
 .nav-bar {
   margin-top: 5px;
 }
 
-/* line 277, ../sass/custom.scss */
+/* line 282, ../sass/custom.scss */
 .nav-bar.categories {
   margin-bottom: 40px;
 }
-/* line 281, ../sass/custom.scss */
+/* line 286, ../sass/custom.scss */
 .nav-bar.categories li, .nav-bar.categories li:last-child, .nav-bar.categories li:first-child {
   font-size: 15px;
 }
-/* line 284, ../sass/custom.scss */
+/* line 289, ../sass/custom.scss */
 .nav-bar.categories li.active, .nav-bar.categories li:last-child.active, .nav-bar.categories li:first-child.active {
   background: none;
 }
-/* line 287, ../sass/custom.scss */
+/* line 292, ../sass/custom.scss */
 .nav-bar.categories li.active a, .nav-bar.categories li:last-child.active a, .nav-bar.categories li:first-child.active a {
   color: #808081 !important;
 }
-/* line 290, ../sass/custom.scss */
+/* line 295, ../sass/custom.scss */
 .nav-bar.categories li.active a:hover, .nav-bar.categories li:last-child.active a:hover, .nav-bar.categories li:first-child.active a:hover {
   background: none !important;
 }
-/* line 296, ../sass/custom.scss */
+/* line 301, ../sass/custom.scss */
 .nav-bar.categories li a, .nav-bar.categories li a:first-child, .nav-bar.categories li a:last-child, .nav-bar.categories li:last-child a, .nav-bar.categories li:last-child a:first-child, .nav-bar.categories li:last-child a:last-child, .nav-bar.categories li:first-child a, .nav-bar.categories li:first-child a:first-child, .nav-bar.categories li:first-child a:last-child {
   color: #808081;
   border: 0;
@@ -245,27 +249,27 @@ p {
   padding-right: 5px;
   padding-left: 15px;
 }
-/* line 303, ../sass/custom.scss */
+/* line 308, ../sass/custom.scss */
 .nav-bar.categories li a:hover, .nav-bar.categories li a:first-child:hover, .nav-bar.categories li a:last-child:hover, .nav-bar.categories li:last-child a:hover, .nav-bar.categories li:last-child a:first-child:hover, .nav-bar.categories li:last-child a:last-child:hover, .nav-bar.categories li:first-child a:hover, .nav-bar.categories li:first-child a:first-child:hover, .nav-bar.categories li:first-child a:last-child:hover {
   background-color: none !important;
   color: #cc9f33;
 }
-/* line 308, ../sass/custom.scss */
+/* line 313, ../sass/custom.scss */
 .nav-bar.categories li a.active, .nav-bar.categories li a:first-child.active, .nav-bar.categories li a:last-child.active, .nav-bar.categories li:last-child a.active, .nav-bar.categories li:last-child a:first-child.active, .nav-bar.categories li:last-child a:last-child.active, .nav-bar.categories li:first-child a.active, .nav-bar.categories li:first-child a:first-child.active, .nav-bar.categories li:first-child a:last-child.active {
   color: #b3b3b5;
 }
-/* line 312, ../sass/custom.scss */
+/* line 317, ../sass/custom.scss */
 .nav-bar.categories li a.activeCat, .nav-bar.categories li a:first-child.activeCat, .nav-bar.categories li a:last-child.activeCat, .nav-bar.categories li:last-child a.activeCat, .nav-bar.categories li:last-child a:first-child.activeCat, .nav-bar.categories li:last-child a:last-child.activeCat, .nav-bar.categories li:first-child a.activeCat, .nav-bar.categories li:first-child a:first-child.activeCat, .nav-bar.categories li:first-child a:last-child.activeCat {
   color: #cc9f33;
 }
 
-/* line 319, ../sass/custom.scss */
+/* line 324, ../sass/custom.scss */
 .nivoSlider {
   position: relative;
   background: url(images/loading.gif) no-repeat 50% 50%;
 }
 
-/* line 323, ../sass/custom.scss */
+/* line 328, ../sass/custom.scss */
 .nivoSlider img {
   position: absolute;
   top: 0px;
@@ -273,13 +277,13 @@ p {
   display: none;
 }
 
-/* line 329, ../sass/custom.scss */
+/* line 334, ../sass/custom.scss */
 .nivoSlider a {
   border: 0;
   display: block;
 }
 
-/* line 334, ../sass/custom.scss */
+/* line 339, ../sass/custom.scss */
 .project {
   display: block;
   width: 100%;
@@ -288,7 +292,7 @@ p {
   float: left;
 }
 
-/* line 343, ../sass/custom.scss */
+/* line 348, ../sass/custom.scss */
 .project-nav {
   margin: 0;
   margin-top: 20px;
@@ -296,18 +300,18 @@ p {
   font-weight: 500;
   text-transform: uppercase;
 }
-/* line 351, ../sass/custom.scss */
+/* line 356, ../sass/custom.scss */
 .project-nav li a, .project-nav li a:first-child, .project-nav li a:last-child, .project-nav li:last-child a, .project-nav li:last-child a:first-child, .project-nav li:last-child a:last-child, .project-nav li:first-child a, .project-nav li:first-child a:first-child, .project-nav li:first-child a:last-child {
   font-size: 16px !important;
   letter-spacing: .07em;
 }
 
-/* line 358, ../sass/custom.scss */
+/* line 363, ../sass/custom.scss */
 .right {
   text-align: right;
 }
 
-/* line 365, ../sass/custom.scss */
+/* line 370, ../sass/custom.scss */
 .title h2 {
   font-size: 20px;
   font-weight: 500;
@@ -315,12 +319,12 @@ p {
   line-height: 1.3em;
 }
 
-/* line 374, ../sass/custom.scss */
+/* line 379, ../sass/custom.scss */
 .titleline h1 {
   white-space: nowrap;
 }
 
-/* line 385, ../sass/custom.scss */
+/* line 390, ../sass/custom.scss */
 #container {
   position: relative;
   min-height: 100%;
@@ -328,7 +332,7 @@ p {
   padding-bottom: 10px;
 }
 
-/* line 392, ../sass/custom.scss */
+/* line 397, ../sass/custom.scss */
 #footer {
   position: relative;
   width: 100%;
@@ -336,13 +340,13 @@ p {
   background: #cc9f33;
   overflow: hidden;
 }
-/* line 399, ../sass/custom.scss */
+/* line 404, ../sass/custom.scss */
 #footer ul.nav-bar {
   height: auto;
   margin: 0;
   margin-left: 12px;
 }
-/* line 405, ../sass/custom.scss */
+/* line 410, ../sass/custom.scss */
 #footer ul.nav-bar li a {
   margin: 0;
   font-family: "Libre Baskerville", serif;
@@ -353,23 +357,23 @@ p {
   color: white;
   line-height: 55px;
 }
-/* line 415, ../sass/custom.scss */
+/* line 420, ../sass/custom.scss */
 #footer ul.nav-bar li.dotted {
   background: url("../images/dotted-vertical.png") top left repeat-y;
   height: 55px;
   padding: 0 18px 0 20px;
 }
-/* line 420, ../sass/custom.scss */
+/* line 425, ../sass/custom.scss */
 #footer ul.nav-bar li.dotted.center {
   text-align: center;
 }
-/* line 424, ../sass/custom.scss */
+/* line 429, ../sass/custom.scss */
 #footer ul.nav-bar li.dotted.end {
   background: url("../images/dotted-vertical.png") top right repeat-y;
   padding: 0;
   width: 5px;
 }
-/* line 433, ../sass/custom.scss */
+/* line 438, ../sass/custom.scss */
 #footer .row {
   		/*
   
@@ -385,17 +389,17 @@ p {
   		}
   		*/
 }
-/* line 437, ../sass/custom.scss */
+/* line 442, ../sass/custom.scss */
 #footer .row .columns.dotted {
   background: url("../images/dotted-vertical.png") top left repeat-y;
   height: 55px;
 }
-/* line 441, ../sass/custom.scss */
+/* line 446, ../sass/custom.scss */
 #footer .row .columns.dotted.center {
   text-align: center;
 }
 
-/* line 461, ../sass/custom.scss */
+/* line 466, ../sass/custom.scss */
 #header {
   position: relative;
   z-index: 0;
@@ -404,12 +408,12 @@ p {
   height: auto;
   background: #cc9f33;
 }
-/* line 472, ../sass/custom.scss */
+/* line 477, ../sass/custom.scss */
 #header .row {
   height: 45px;
 }
 
-/* line 477, ../sass/custom.scss */
+/* line 482, ../sass/custom.scss */
 #image-nav {
   position: absolute;
   right: -10px;
@@ -419,7 +423,7 @@ p {
   text-align: right;
   line-height: 20px;
 }
-/* line 486, ../sass/custom.scss */
+/* line 491, ../sass/custom.scss */
 #image-nav a {
   display: inline-block;
   padding: 0 25px;
@@ -428,7 +432,7 @@ p {
   font-family: "calluna-sans",sans-serif;
   font-weight: 300;
 }
-/* line 494, ../sass/custom.scss */
+/* line 499, ../sass/custom.scss */
 #image-nav span {
   position: relative;
   display: inline-block;
@@ -436,58 +440,58 @@ p {
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 509, ../sass/custom.scss */
+  /* line 514, ../sass/custom.scss */
   ul.nav-bar {
     margin: 0;
   }
-  /* line 512, ../sass/custom.scss */
+  /* line 517, ../sass/custom.scss */
   ul.nav-bar li {
     min-height: 44px;
     border-bottom: 1px solid #ffdd8c !important;
   }
-  /* line 516, ../sass/custom.scss */
+  /* line 521, ../sass/custom.scss */
   ul.nav-bar li a {
     line-height: 44px;
   }
 
-  /* line 523, ../sass/custom.scss */
+  /* line 528, ../sass/custom.scss */
   ul.nav-bar.categories li {
     border-bottom: 1px solid white !important;
     background-color: #ffecbf;
   }
 
-  /* line 529, ../sass/custom.scss */
+  /* line 534, ../sass/custom.scss */
   .image_holder {
     height: auto;
     width: 100%;
   }
 
-  /* line 534, ../sass/custom.scss */
+  /* line 539, ../sass/custom.scss */
   .right {
     text-align: left;
   }
 
-  /* line 540, ../sass/custom.scss */
+  /* line 545, ../sass/custom.scss */
   .titleline .nine.columns h1 {
     margin-top: 0;
   }
 
-  /* line 546, ../sass/custom.scss */
+  /* line 551, ../sass/custom.scss */
   #footer {
     height: auto;
   }
-  /* line 553, ../sass/custom.scss */
+  /* line 558, ../sass/custom.scss */
   #footer ul.nav-bar li.dotted.center {
     text-align: left !important;
     padding-left: 0;
     background-image: none;
   }
-  /* line 558, ../sass/custom.scss */
+  /* line 563, ../sass/custom.scss */
   #footer ul.nav-bar li.dotted.center.end {
     display: none;
   }
 
-  /* line 567, ../sass/custom.scss */
+  /* line 572, ../sass/custom.scss */
   #header .row {
     height: auto;
   }
