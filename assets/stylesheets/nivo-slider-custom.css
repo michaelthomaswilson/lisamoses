@@ -1,26 +1,32 @@
-/* line 8, ../sass/nivo-slider-custom.scss */
+/* line 14, ../sass/nivo-slider-custom.scss */
 .nivo-caption {
   position: absolute;
-  bottom: -10px;
+  top: 450px;
   left: 0;
   width: 470px;
+  height: auto;
+  overflow: visible;
   background: none !important;
-  font-size: 14px;
   color: #686869;
   font-family: "calluna-sans",sans-serif;
   font-weight: 300;
-  font-weight: 500;
+  font-size: 13px;
+  line-height: 19.5px;
+  font-weight: 400;
 }
 
-/* line 21, ../sass/nivo-slider-custom.scss */
+/* line 31, ../sass/nivo-slider-custom.scss */
 .nivo-controlNav {
-  position: absolute !important;
-  bottom: -10px;
+  position: absolute;
+  top: 450px;
   right: 0;
-  width: 200px;
+  width: 140px;
   padding: 5px 0;
+  font-size: 13px;
+  line-height: 19.5px;
+  font-weight: 400;
 }
-/* line 28, ../sass/nivo-slider-custom.scss */
+/* line 40, ../sass/nivo-slider-custom.scss */
 .nivo-controlNav a {
   display: inline-block;
   padding: 0 15px;
@@ -28,14 +34,35 @@
   color: #686869;
   font-family: "calluna-sans",sans-serif;
   font-weight: 300;
+  font-size: 13px;
+  line-height: 19.5px;
+  font-weight: 400;
 }
 
-/* line 46, ../sass/nivo-slider-custom.scss */
+/* line 59, ../sass/nivo-slider-custom.scss */
 .slider-wrapper {
   padding-bottom: 20px;
 }
 
-/* line 50, ../sass/nivo-slider-custom.scss */
+/* line 63, ../sass/nivo-slider-custom.scss */
 #slider {
   cursor: pointer;
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 76, ../sass/nivo-slider-custom.scss */
+  .nivo-caption {
+    position: relative;
+    width: 100%;
+    top: 0;
+    text-align: center;
+  }
+
+  /* line 83, ../sass/nivo-slider-custom.scss */
+  .nivo-controlNav {
+    position: relative;
+    top: 0;
+    width: 100%;
+    text-align: center;
+  }
 }

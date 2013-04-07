@@ -46,6 +46,12 @@ $white: #fff;
 	font-weight: 700;
 }
 
+@mixin small {
+	font-size: 13px;
+	line-height: 19.5px;
+	font-weight: 400;
+}
+
 
 ///////////////////////////////////////////////
 
@@ -353,6 +359,7 @@ p {
 }
 
 .projectDescription {
+	margin-top: 5px;
 
 	p {
 		@include sans-normal;

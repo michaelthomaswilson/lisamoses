@@ -5,25 +5,37 @@ $gray: #686869;
 	font-weight: 300;
 }
 
+@mixin small {
+	font-size: 13px;
+	line-height: 19.5px;
+	font-weight: 400;
+}
+
 .nivo-caption {
 	position: absolute;
-	bottom: -10px;
+	top: 450px;
+	//bottom: -10px;
 	left: 0;
 	width: 470px;
+	height: auto;
+	overflow: visible;
 	background: none !important;
 
-	font-size: 14px;
+
 	color: $gray;
 	@include sans-light;
-	font-weight: 500;
+	@include small;
+
 }
 
 .nivo-controlNav {
-	position: absolute !important;
-	bottom: -10px;
+	position: absolute;
+	//bottom: -10px;
+	top: 450px;
 	right: 0;
-	width: 200px;
+	width: 140px;
 	padding: 5px 0;
+	@include small;
 
 	a {
 		display: inline-block;
@@ -31,6 +43,7 @@ $gray: #686869;
 		font-size: 16px;
 		color: $gray;
 		@include sans-light;
+		@include small;
 	}
 
 	.nivo-prevNav {
@@ -49,4 +62,30 @@ $gray: #686869;
 
 #slider {
 	cursor: pointer;
+}
+
+
+///////////////////////////////////////////////
+
+// Media Querie Exceptions
+
+///////////////////////////////////////////////
+
+@media only screen and (max-width: 767px) {
+
+	.nivo-caption {
+		position: relative;
+		width: 100%;
+		top: 0;
+		text-align: center;
+	}
+
+	.nivo-controlNav {
+		position: relative;
+		top: 0;
+		width: 100%;
+		text-align: center;
+	}
+
+
 }
