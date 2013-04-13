@@ -1,9 +1,9 @@
 /* line 14, ../sass/nivo-slider-custom.scss */
 .nivo-caption {
   position: absolute;
-  top: 450px;
+  bottom: 0;
   left: 0;
-  width: 470px;
+  width: 550px;
   height: auto;
   overflow: visible;
   background: none !important;
@@ -14,19 +14,25 @@
   line-height: 19.5px;
   font-weight: 400;
 }
+/* line 29, ../sass/nivo-slider-custom.scss */
+.nivo-caption p {
+  font-size: 13px;
+  padding: 0;
+  margin: 0;
+}
 
-/* line 31, ../sass/nivo-slider-custom.scss */
+/* line 37, ../sass/nivo-slider-custom.scss */
 .nivo-controlNav {
   position: absolute;
-  top: 450px;
+  bottom: 0px;
   right: 0;
-  width: 140px;
+  width: 150px;
   padding: 5px 0;
   font-size: 13px;
   line-height: 19.5px;
   font-weight: 400;
 }
-/* line 40, ../sass/nivo-slider-custom.scss */
+/* line 46, ../sass/nivo-slider-custom.scss */
 .nivo-controlNav a {
   display: inline-block;
   padding: 0 15px;
@@ -39,18 +45,18 @@
   font-weight: 400;
 }
 
-/* line 59, ../sass/nivo-slider-custom.scss */
+/* line 65, ../sass/nivo-slider-custom.scss */
 .slider-wrapper {
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
-/* line 63, ../sass/nivo-slider-custom.scss */
+/* line 69, ../sass/nivo-slider-custom.scss */
 #slider {
   cursor: pointer;
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 76, ../sass/nivo-slider-custom.scss */
+  /* line 82, ../sass/nivo-slider-custom.scss */
   .nivo-caption {
     position: relative;
     width: 100%;
@@ -58,7 +64,7 @@
     text-align: center;
   }
 
-  /* line 83, ../sass/nivo-slider-custom.scss */
+  /* line 89, ../sass/nivo-slider-custom.scss */
   .nivo-controlNav {
     position: relative;
     top: 0;
