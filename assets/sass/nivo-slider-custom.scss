@@ -1,4 +1,5 @@
 $gray: #686869;
+$yellow: #CC9F33;
 
 @mixin sans-light {
 	font-family: "calluna-sans",sans-serif;
@@ -30,6 +31,10 @@ $gray: #686869;
 		font-size: 13px;
 		padding: 0;
 		margin: 0;
+
+		a {
+			color: $yellow;
+		}
 	}
 
 }

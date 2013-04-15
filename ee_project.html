@@ -9,19 +9,24 @@
 			<div class="two columns title right">
 				<h2>{title}</h2>
 			</div>
-			<div class="three columns about">
+			<div class="three columns projectDescription">
 				{description}
 			</div>
 			<div class="seven columns last">
 				<div class="row">
 					<div class="twelve columns">
+						{reverse_related_entries sort="desc" orderby="date"}
 						<div class="slider-wrapper">
 						    <div id="slider" class="nivoSlider">
-						    	{reverse_related_entries sort="desc" orderby="date"}
-						        	<img src="{project_image}" alt="" title="{caption}" />
-						        {/reverse_related_entries}
+						    	
+						        	<img src="{project_image}" alt="" title="#htmlcaption" />
+						        
 						    </div>
 						</div>
+						<div id="htmlcaption" class="nivo-html-caption">
+						    {caption}
+						</div>
+						{/reverse_related_entries}
 					</div>
 				</div>
 				<div class="row">
