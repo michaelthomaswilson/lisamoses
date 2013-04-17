@@ -15,18 +15,15 @@
 			<div class="seven columns last">
 				<div class="row">
 					<div class="twelve columns">
-						{reverse_related_entries sort="desc" orderby="date"}
+						
 						<div class="slider-wrapper">
 						    <div id="slider" class="nivoSlider">
-						    	
-						        	<img src="{project_image}" alt="" title="#htmlcaption" />
-						        
+						    	{reverse_related_entries sort="desc" orderby="date"}
+						        	<img src="{project_image}" alt="" title="{caption}" />
+						        {/reverse_related_entries}
 						    </div>
 						</div>
-						<div id="htmlcaption" class="nivo-html-caption">
-						    {caption}
-						</div>
-						{/reverse_related_entries}
+						<div id="htmlcaption" class="nivo-html-caption"></div>					
 					</div>
 				</div>
 				<div class="row">
