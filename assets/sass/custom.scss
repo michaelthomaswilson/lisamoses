@@ -69,6 +69,10 @@ body {
 	color: $gray;
 }
 
+a {
+	color: $yellow;
+}
+
 h1 {
 	@include serif-normal;
 	font-size: 18px;
@@ -372,6 +376,18 @@ p {
 			color: $yellow;
 			text-decoration: none;
 		}
+	}
+
+	.download {
+		height: auto;
+		font-size: 13px;
+		background: url('../images/download_dotted.gif') repeat-x;
+		padding: 25px 0;
+
+		a:hover {
+			color: $gray;
+		}
+
 	}
 }
 

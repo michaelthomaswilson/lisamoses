@@ -12,6 +12,11 @@ body {
 }
 
 /* line 72, ../sass/custom.scss */
+a {
+  color: #cc9f33;
+}
+
+/* line 76, ../sass/custom.scss */
 h1 {
   font-family: "Libre Baskerville", serif;
   font-weight: 500;
@@ -21,20 +26,20 @@ h1 {
   color: #808081;
   margin-top: 40px;
 }
-/* line 80, ../sass/custom.scss */
+/* line 84, ../sass/custom.scss */
 h1 span {
   color: #cc9f33;
 }
-/* line 84, ../sass/custom.scss */
+/* line 88, ../sass/custom.scss */
 h1 a {
   color: #808081;
 }
-/* line 87, ../sass/custom.scss */
+/* line 91, ../sass/custom.scss */
 h1 a:hover {
   color: #cc9f33;
 }
 
-/* line 93, ../sass/custom.scss */
+/* line 97, ../sass/custom.scss */
 h2 {
   font-family: "calluna-sans",sans-serif;
   font-weight: 300;
@@ -44,7 +49,7 @@ h2 {
   margin-top: 0;
 }
 
-/* line 101, ../sass/custom.scss */
+/* line 105, ../sass/custom.scss */
 hr {
   height: 2px;
   width: 100%;
@@ -53,7 +58,7 @@ hr {
   border: none;
 }
 
-/* line 109, ../sass/custom.scss */
+/* line 113, ../sass/custom.scss */
 p {
   font-family: "calluna-sans",sans-serif;
   font-weight: 500;
@@ -61,11 +66,11 @@ p {
   letter-spacing: .05em;
 }
 
-/* line 123, ../sass/custom.scss */
+/* line 127, ../sass/custom.scss */
 .about a, .contact a, .title a {
   color: #cc9f33;
 }
-/* line 127, ../sass/custom.scss */
+/* line 131, ../sass/custom.scss */
 .about h2, .about h3, .contact h2, .contact h3, .title h2, .title h3 {
   color: #808081;
   text-transform: capitalize;
@@ -74,59 +79,59 @@ p {
   letter-spacing: .05em;
   font-size: 20px;
 }
-/* line 135, ../sass/custom.scss */
+/* line 139, ../sass/custom.scss */
 .about h2, .contact h2, .title h2 {
   color: #9a9a9c;
   line-height: 1.3em;
   letter-spacing: .08em;
 }
-/* line 142, ../sass/custom.scss */
+/* line 146, ../sass/custom.scss */
 .about h3, .contact h3, .title h3 {
   text-transform: none;
   font-size: 16px;
   margin-top: 0;
 }
-/* line 148, ../sass/custom.scss */
+/* line 152, ../sass/custom.scss */
 .about p, .contact p, .title p {
   font-family: "calluna-sans",sans-serif;
   font-weight: 300;
   line-height: 1.6em;
 }
 
-/* line 157, ../sass/custom.scss */
+/* line 161, ../sass/custom.scss */
 .about p {
   font-size: 14px;
   line-height: 1.6em;
   margin-bottom: 12px;
 }
-/* line 163, ../sass/custom.scss */
+/* line 167, ../sass/custom.scss */
 .about h3 {
   text-transform: capitalize;
 }
-/* line 167, ../sass/custom.scss */
+/* line 171, ../sass/custom.scss */
 .about h3.cv {
   margin-top: 60px;
 }
-/* line 171, ../sass/custom.scss */
+/* line 175, ../sass/custom.scss */
 .about h3.statement {
   margin-top: 5px;
 }
 
-/* line 177, ../sass/custom.scss */
+/* line 181, ../sass/custom.scss */
 .block-grid.four-up > li {
   padding-bottom: 0;
 }
 
-/* line 187, ../sass/custom.scss */
+/* line 191, ../sass/custom.scss */
 .capsule {
   margin-bottom: 35px;
 }
-/* line 191, ../sass/custom.scss */
+/* line 195, ../sass/custom.scss */
 .capsule a {
   height: 100%;
   width: 100%;
 }
-/* line 196, ../sass/custom.scss */
+/* line 200, ../sass/custom.scss */
 .capsule a img {
   display: block;
   height: auto;
@@ -135,7 +140,7 @@ p {
   max-width: 330px;
   padding-left: 15px;
 }
-/* line 205, ../sass/custom.scss */
+/* line 209, ../sass/custom.scss */
 .capsule a label {
   font-family: "calluna-sans",sans-serif;
   font-weight: 500;
@@ -145,13 +150,13 @@ p {
   padding-left: 15px;
 }
 
-/* line 215, ../sass/custom.scss */
+/* line 219, ../sass/custom.scss */
 .clearfooter {
   height: 75px;
   clear: both;
 }
 
-/* line 220, ../sass/custom.scss */
+/* line 224, ../sass/custom.scss */
 .headline {
   position: absolute;
   top: 40px;
@@ -161,18 +166,18 @@ p {
   text-shadow: 0 0 1px white;
 }
 
-/* line 229, ../sass/custom.scss */
+/* line 233, ../sass/custom.scss */
 .image_holder {
   display: block;
   width: 670px;
   height: 400px;
 }
 
-/* line 237, ../sass/custom.scss */
+/* line 241, ../sass/custom.scss */
 .intro, .about, .contact {
   margin-bottom: 0;
 }
-/* line 241, ../sass/custom.scss */
+/* line 245, ../sass/custom.scss */
 .intro p, .about p, .contact p {
   font-family: "calluna-sans",sans-serif;
   font-weight: 300;
@@ -181,73 +186,73 @@ p {
   letter-spacing: .05em;
 }
 
-/* line 249, ../sass/custom.scss */
+/* line 253, ../sass/custom.scss */
 .nav-bar, .nav-bar.categories {
   background: none !important;
 }
-/* line 254, ../sass/custom.scss */
+/* line 258, ../sass/custom.scss */
 .nav-bar li, .nav-bar li:last-child, .nav-bar li:first-child, .nav-bar.categories li, .nav-bar.categories li:last-child, .nav-bar.categories li:first-child {
   border: 0;
   box-shadow: none !important;
 }
-/* line 258, ../sass/custom.scss */
+/* line 262, ../sass/custom.scss */
 .nav-bar li:hover, .nav-bar li:last-child:hover, .nav-bar li:first-child:hover, .nav-bar.categories li:hover, .nav-bar.categories li:last-child:hover, .nav-bar.categories li:first-child:hover {
   background: none;
 }
-/* line 262, ../sass/custom.scss */
+/* line 266, ../sass/custom.scss */
 .nav-bar li.active, .nav-bar li:last-child.active, .nav-bar li:first-child.active, .nav-bar.categories li.active, .nav-bar.categories li:last-child.active, .nav-bar.categories li:first-child.active {
   background: none;
 }
-/* line 265, ../sass/custom.scss */
+/* line 269, ../sass/custom.scss */
 .nav-bar li.active a, .nav-bar li:last-child.active a, .nav-bar li:first-child.active a, .nav-bar.categories li.active a, .nav-bar.categories li:last-child.active a, .nav-bar.categories li:first-child.active a {
   color: #808081 !important;
 }
-/* line 268, ../sass/custom.scss */
+/* line 272, ../sass/custom.scss */
 .nav-bar li.active a:hover, .nav-bar li:last-child.active a:hover, .nav-bar li:first-child.active a:hover, .nav-bar.categories li.active a:hover, .nav-bar.categories li:last-child.active a:hover, .nav-bar.categories li:first-child.active a:hover {
   background: none !important;
 }
-/* line 274, ../sass/custom.scss */
+/* line 278, ../sass/custom.scss */
 .nav-bar li a, .nav-bar li a:first-child, .nav-bar li a:last-child, .nav-bar li:last-child a, .nav-bar li:last-child a:first-child, .nav-bar li:last-child a:last-child, .nav-bar li:first-child a, .nav-bar li:first-child a:first-child, .nav-bar li:first-child a:last-child, .nav-bar.categories li a, .nav-bar.categories li a:first-child, .nav-bar.categories li a:last-child, .nav-bar.categories li:last-child a, .nav-bar.categories li:last-child a:first-child, .nav-bar.categories li:last-child a:last-child, .nav-bar.categories li:first-child a, .nav-bar.categories li:first-child a:first-child, .nav-bar.categories li:first-child a:last-child {
   color: white;
   border: 0;
   font-size: 16px;
   padding-left: 15px;
 }
-/* line 280, ../sass/custom.scss */
+/* line 284, ../sass/custom.scss */
 .nav-bar li a:hover, .nav-bar li a:first-child:hover, .nav-bar li a:last-child:hover, .nav-bar li:last-child a:hover, .nav-bar li:last-child a:first-child:hover, .nav-bar li:last-child a:last-child:hover, .nav-bar li:first-child a:hover, .nav-bar li:first-child a:first-child:hover, .nav-bar li:first-child a:last-child:hover, .nav-bar.categories li a:hover, .nav-bar.categories li a:first-child:hover, .nav-bar.categories li a:last-child:hover, .nav-bar.categories li:last-child a:hover, .nav-bar.categories li:last-child a:first-child:hover, .nav-bar.categories li:last-child a:last-child:hover, .nav-bar.categories li:first-child a:hover, .nav-bar.categories li:first-child a:first-child:hover, .nav-bar.categories li:first-child a:last-child:hover {
   background-color: none !important;
 }
-/* line 284, ../sass/custom.scss */
+/* line 288, ../sass/custom.scss */
 .nav-bar li a.active, .nav-bar li a:first-child.active, .nav-bar li a:last-child.active, .nav-bar li:last-child a.active, .nav-bar li:last-child a:first-child.active, .nav-bar li:last-child a:last-child.active, .nav-bar li:first-child a.active, .nav-bar li:first-child a:first-child.active, .nav-bar li:first-child a:last-child.active, .nav-bar.categories li a.active, .nav-bar.categories li a:first-child.active, .nav-bar.categories li a:last-child.active, .nav-bar.categories li:last-child a.active, .nav-bar.categories li:last-child a:first-child.active, .nav-bar.categories li:last-child a:last-child.active, .nav-bar.categories li:first-child a.active, .nav-bar.categories li:first-child a:first-child.active, .nav-bar.categories li:first-child a:last-child.active {
   color: #808081;
 }
 
-/* line 291, ../sass/custom.scss */
+/* line 295, ../sass/custom.scss */
 .nav-bar {
   margin-top: 5px;
 }
 
-/* line 295, ../sass/custom.scss */
+/* line 299, ../sass/custom.scss */
 .nav-bar.categories {
   margin-bottom: 40px;
 }
-/* line 299, ../sass/custom.scss */
+/* line 303, ../sass/custom.scss */
 .nav-bar.categories li, .nav-bar.categories li:last-child, .nav-bar.categories li:first-child {
   font-size: 15px;
 }
-/* line 302, ../sass/custom.scss */
+/* line 306, ../sass/custom.scss */
 .nav-bar.categories li.active, .nav-bar.categories li:last-child.active, .nav-bar.categories li:first-child.active {
   background: none;
 }
-/* line 305, ../sass/custom.scss */
+/* line 309, ../sass/custom.scss */
 .nav-bar.categories li.active a, .nav-bar.categories li:last-child.active a, .nav-bar.categories li:first-child.active a {
   color: #808081 !important;
 }
-/* line 308, ../sass/custom.scss */
+/* line 312, ../sass/custom.scss */
 .nav-bar.categories li.active a:hover, .nav-bar.categories li:last-child.active a:hover, .nav-bar.categories li:first-child.active a:hover {
   background: none !important;
 }
-/* line 314, ../sass/custom.scss */
+/* line 318, ../sass/custom.scss */
 .nav-bar.categories li a, .nav-bar.categories li a:first-child, .nav-bar.categories li a:last-child, .nav-bar.categories li:last-child a, .nav-bar.categories li:last-child a:first-child, .nav-bar.categories li:last-child a:last-child, .nav-bar.categories li:first-child a, .nav-bar.categories li:first-child a:first-child, .nav-bar.categories li:first-child a:last-child {
   color: #808081;
   border: 0;
@@ -255,27 +260,27 @@ p {
   padding-right: 5px;
   padding-left: 15px;
 }
-/* line 321, ../sass/custom.scss */
+/* line 325, ../sass/custom.scss */
 .nav-bar.categories li a:hover, .nav-bar.categories li a:first-child:hover, .nav-bar.categories li a:last-child:hover, .nav-bar.categories li:last-child a:hover, .nav-bar.categories li:last-child a:first-child:hover, .nav-bar.categories li:last-child a:last-child:hover, .nav-bar.categories li:first-child a:hover, .nav-bar.categories li:first-child a:first-child:hover, .nav-bar.categories li:first-child a:last-child:hover {
   background-color: none !important;
   color: #cc9f33;
 }
-/* line 326, ../sass/custom.scss */
+/* line 330, ../sass/custom.scss */
 .nav-bar.categories li a.active, .nav-bar.categories li a:first-child.active, .nav-bar.categories li a:last-child.active, .nav-bar.categories li:last-child a.active, .nav-bar.categories li:last-child a:first-child.active, .nav-bar.categories li:last-child a:last-child.active, .nav-bar.categories li:first-child a.active, .nav-bar.categories li:first-child a:first-child.active, .nav-bar.categories li:first-child a:last-child.active {
   color: #b3b3b5;
 }
-/* line 330, ../sass/custom.scss */
+/* line 334, ../sass/custom.scss */
 .nav-bar.categories li a.activeCat, .nav-bar.categories li a:first-child.activeCat, .nav-bar.categories li a:last-child.activeCat, .nav-bar.categories li:last-child a.activeCat, .nav-bar.categories li:last-child a:first-child.activeCat, .nav-bar.categories li:last-child a:last-child.activeCat, .nav-bar.categories li:first-child a.activeCat, .nav-bar.categories li:first-child a:first-child.activeCat, .nav-bar.categories li:first-child a:last-child.activeCat {
   color: #cc9f33;
 }
 
-/* line 337, ../sass/custom.scss */
+/* line 341, ../sass/custom.scss */
 .nivoSlider {
   position: relative;
   background: url(images/loading.gif) no-repeat 50% 50%;
 }
 
-/* line 341, ../sass/custom.scss */
+/* line 345, ../sass/custom.scss */
 .nivoSlider img {
   position: absolute;
   top: 0px;
@@ -283,13 +288,13 @@ p {
   display: none;
 }
 
-/* line 347, ../sass/custom.scss */
+/* line 351, ../sass/custom.scss */
 .nivoSlider a {
   border: 0;
   display: block;
 }
 
-/* line 352, ../sass/custom.scss */
+/* line 356, ../sass/custom.scss */
 .project {
   display: block;
   width: 100%;
@@ -298,11 +303,11 @@ p {
   float: left;
 }
 
-/* line 361, ../sass/custom.scss */
+/* line 365, ../sass/custom.scss */
 .projectDescription {
   margin-top: 5px;
 }
-/* line 364, ../sass/custom.scss */
+/* line 368, ../sass/custom.scss */
 .projectDescription p {
   font-family: "calluna-sans",sans-serif;
   font-weight: 500;
@@ -311,13 +316,24 @@ p {
   line-height: 19.5px;
   letter-spacing: normal;
 }
-/* line 371, ../sass/custom.scss */
+/* line 375, ../sass/custom.scss */
 .projectDescription p a {
   color: #cc9f33;
   text-decoration: none;
 }
+/* line 381, ../sass/custom.scss */
+.projectDescription .download {
+  height: auto;
+  font-size: 13px;
+  background: url("../images/download_dotted.gif") repeat-x;
+  padding: 25px 0;
+}
+/* line 387, ../sass/custom.scss */
+.projectDescription .download a:hover {
+  color: #808081;
+}
 
-/* line 378, ../sass/custom.scss */
+/* line 394, ../sass/custom.scss */
 .project-nav {
   margin: 0;
   margin-top: 20px;
@@ -325,18 +341,18 @@ p {
   font-weight: 500;
   text-transform: uppercase;
 }
-/* line 386, ../sass/custom.scss */
+/* line 402, ../sass/custom.scss */
 .project-nav li a, .project-nav li a:first-child, .project-nav li a:last-child, .project-nav li:last-child a, .project-nav li:last-child a:first-child, .project-nav li:last-child a:last-child, .project-nav li:first-child a, .project-nav li:first-child a:first-child, .project-nav li:first-child a:last-child {
   font-size: 16px !important;
   letter-spacing: .07em;
 }
 
-/* line 393, ../sass/custom.scss */
+/* line 409, ../sass/custom.scss */
 .right {
   text-align: right;
 }
 
-/* line 400, ../sass/custom.scss */
+/* line 416, ../sass/custom.scss */
 .title h2 {
   font-size: 20px;
   font-weight: 500;
@@ -344,12 +360,12 @@ p {
   line-height: 1.3em;
 }
 
-/* line 409, ../sass/custom.scss */
+/* line 425, ../sass/custom.scss */
 .titleline h1 {
   white-space: nowrap;
 }
 
-/* line 420, ../sass/custom.scss */
+/* line 436, ../sass/custom.scss */
 #container {
   position: relative;
   min-height: 100%;
@@ -357,7 +373,7 @@ p {
   padding-bottom: 10px;
 }
 
-/* line 427, ../sass/custom.scss */
+/* line 443, ../sass/custom.scss */
 #footer {
   position: relative;
   width: 100%;
@@ -365,13 +381,13 @@ p {
   background: #cc9f33;
   overflow: hidden;
 }
-/* line 434, ../sass/custom.scss */
+/* line 450, ../sass/custom.scss */
 #footer ul.nav-bar {
   height: auto;
   margin: 0;
   margin-left: 12px;
 }
-/* line 440, ../sass/custom.scss */
+/* line 456, ../sass/custom.scss */
 #footer ul.nav-bar li a {
   margin: 0;
   font-family: "Libre Baskerville", serif;
@@ -382,23 +398,23 @@ p {
   color: white;
   line-height: 55px;
 }
-/* line 450, ../sass/custom.scss */
+/* line 466, ../sass/custom.scss */
 #footer ul.nav-bar li.dotted {
   background: url("../images/dotted-vertical.png") top left repeat-y;
   height: 55px;
   padding: 0 18px 0 20px;
 }
-/* line 455, ../sass/custom.scss */
+/* line 471, ../sass/custom.scss */
 #footer ul.nav-bar li.dotted.center {
   text-align: center;
 }
-/* line 459, ../sass/custom.scss */
+/* line 475, ../sass/custom.scss */
 #footer ul.nav-bar li.dotted.end {
   background: url("../images/dotted-vertical.png") top right repeat-y;
   padding: 0;
   width: 5px;
 }
-/* line 468, ../sass/custom.scss */
+/* line 484, ../sass/custom.scss */
 #footer .row {
   		/*
   
@@ -414,17 +430,17 @@ p {
   		}
   		*/
 }
-/* line 472, ../sass/custom.scss */
+/* line 488, ../sass/custom.scss */
 #footer .row .columns.dotted {
   background: url("../images/dotted-vertical.png") top left repeat-y;
   height: 55px;
 }
-/* line 476, ../sass/custom.scss */
+/* line 492, ../sass/custom.scss */
 #footer .row .columns.dotted.center {
   text-align: center;
 }
 
-/* line 496, ../sass/custom.scss */
+/* line 512, ../sass/custom.scss */
 #header {
   position: relative;
   z-index: 0;
@@ -433,12 +449,12 @@ p {
   height: auto;
   background: #cc9f33;
 }
-/* line 507, ../sass/custom.scss */
+/* line 523, ../sass/custom.scss */
 #header .row {
   height: 45px;
 }
 
-/* line 512, ../sass/custom.scss */
+/* line 528, ../sass/custom.scss */
 #image-nav {
   position: absolute;
   right: -10px;
@@ -448,7 +464,7 @@ p {
   text-align: right;
   line-height: 20px;
 }
-/* line 521, ../sass/custom.scss */
+/* line 537, ../sass/custom.scss */
 #image-nav a {
   display: inline-block;
   padding: 0 25px;
@@ -457,7 +473,7 @@ p {
   font-family: "calluna-sans",sans-serif;
   font-weight: 300;
 }
-/* line 529, ../sass/custom.scss */
+/* line 545, ../sass/custom.scss */
 #image-nav span {
   position: relative;
   display: inline-block;
@@ -465,58 +481,58 @@ p {
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 544, ../sass/custom.scss */
+  /* line 560, ../sass/custom.scss */
   ul.nav-bar {
     margin: 0;
   }
-  /* line 547, ../sass/custom.scss */
+  /* line 563, ../sass/custom.scss */
   ul.nav-bar li {
     min-height: 44px;
     border-bottom: 1px solid #ffdd8c !important;
   }
-  /* line 551, ../sass/custom.scss */
+  /* line 567, ../sass/custom.scss */
   ul.nav-bar li a {
     line-height: 44px;
   }
 
-  /* line 558, ../sass/custom.scss */
+  /* line 574, ../sass/custom.scss */
   ul.nav-bar.categories li {
     border-bottom: 1px solid white !important;
     background-color: #ffecbf;
   }
 
-  /* line 564, ../sass/custom.scss */
+  /* line 580, ../sass/custom.scss */
   .image_holder {
     height: auto;
     width: 100%;
   }
 
-  /* line 569, ../sass/custom.scss */
+  /* line 585, ../sass/custom.scss */
   .right {
     text-align: left;
   }
 
-  /* line 575, ../sass/custom.scss */
+  /* line 591, ../sass/custom.scss */
   .titleline .nine.columns h1 {
     margin-top: 0;
   }
 
-  /* line 581, ../sass/custom.scss */
+  /* line 597, ../sass/custom.scss */
   #footer {
     height: auto;
   }
-  /* line 588, ../sass/custom.scss */
+  /* line 604, ../sass/custom.scss */
   #footer ul.nav-bar li.dotted.center {
     text-align: left !important;
     padding-left: 0;
     background-image: none;
   }
-  /* line 593, ../sass/custom.scss */
+  /* line 609, ../sass/custom.scss */
   #footer ul.nav-bar li.dotted.center.end {
     display: none;
   }
 
-  /* line 602, ../sass/custom.scss */
+  /* line 618, ../sass/custom.scss */
   #header .row {
     height: auto;
   }

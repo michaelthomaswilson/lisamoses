@@ -11,6 +11,12 @@
 			</div>
 			<div class="three columns projectDescription">
 				{description}
+
+				{if file_to_download != ""}
+				<div class="download">
+					<a href="{file_to_download}" target="_blank">{download_link_text}</a>
+				</div>
+				{/if}
 			</div>
 			<div class="seven columns last">
 				<div class="row">
